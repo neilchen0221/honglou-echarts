@@ -4,6 +4,12 @@ var express = require('express');
 var app = express();
 
 app.use(express.static(path.join(__dirname, 'public')));
+/* Remove trailing '.html' for page url */
+app.use(
+	express.static(pathToBaseFolderOfStaticContent, {
+		extensions: ['html', 'htm']
+	})
+);
 app.set('port', process.env.PORT || 8080);
 
 var server = app.listen(app.get('port'), function () {
