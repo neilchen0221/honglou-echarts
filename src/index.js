@@ -1,7 +1,9 @@
 const echarts = require('echarts');
 const echarts2 = require('echarts');
-const data = require('./honglou.json');
-const data2 = require('./honglou2.json');
+// const data = require('./data/honglou.json');
+const data = require('./data/honglou_english_version.json');
+const data2 = require('./data/honglou2.json');
+const imageBaseUrl = 'https://datarati-vma.s3-ap-southeast-2.amazonaws.com/Test+Images/';
 
 if (document.getElementById('main')) {
 	/**************************************/
@@ -12,16 +14,34 @@ if (document.getElementById('main')) {
 	const categories = [{ name: 'event' }, { name: 'person' }, { name: 'location' }];
 
 	graph.data.nodes.forEach(function (node) {
-		node.name = node.label;
+		let name = node.label.split('—');
+		let chineseName = name[0];
+		let englishName = name[name.length - 1];
+		let imageUrl = `${imageBaseUrl}${encodeURIComponent(chineseName)}.jpg`;
+
+		let labelSize = 12;
+		if (node.value <= 5) {
+			labelSize = 8;
+		} else if (node.value > 5 && node.value <= 10) {
+			labelSize = 12;
+		} else if (node.value > 10) {
+			labelSize = 16;
+		}
+
+		node.name = `${chineseName}|${englishName}`;
 		node.symbolSize = node.value * 2;
+		// node.symbol = node.categories[0] === 'person' && node.image ? `image://${imageUrl}` : 'circle';
 		node.symbol = 'circle';
 		node.label = {
-			show: true
+			show: true,
+			fontSize: labelSize
 		};
 		node.category = node.categories[0];
 		node.tooltip = {
 			formatter: function () {
-				return `<div style="width:400px;white-space: initial;">${node.info}</div>`;
+				return `<div style="width:400px;white-space: initial;">${
+					node.image ? `<img src='${imageUrl}' width="100" style="float:left;margin-right:15px">` : ''
+				}<span style="font-weight:bold;font-size:16px;">${node.name}</span><br>${node.info}</div>`;
 			}
 		};
 	});
@@ -35,24 +55,28 @@ if (document.getElementById('main')) {
 				return edge.relationship;
 			}
 		};
+		edge.symbol = ['none', 'arrow'];
+		edge.symbolSize = 10;
 	});
 
 	option = {
 		title: {
-			text: '紅樓夢',
+			text: '紅樓夢|Honglou',
 			subtext: 'Circular',
 			top: 'top',
 			left: 'left'
 		},
 		tooltip: {},
-		legend: [
-			{
-				// selectedMode: 'single',
-				data: categories.map(function (a) {
-					return a.name;
-				})
+		legend: {
+			data: categories.map(function (a) {
+				return a.name;
+			}),
+			selected: {
+				person: true,
+				event: false,
+				location: false
 			}
-		],
+		},
 		animationDuration: 1500,
 		animationEasingUpdate: 'quinticInOut',
 		series: [

@@ -6,13 +6,17 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "node server.js",
-		"build": "webpack --mode development"
+		"build": "webpack --mode development",
+		"dev": "webpack-dev-server --entry ./src/index.js --output-filename ./public/bundle.js"
 	},
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
+		"file-loader": "^6.1.0",
+		"url-loader": "^4.1.0",
 		"webpack": "^4.44.2",
-		"webpack-cli": "^3.3.12"
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.11.0"
 	},
 	"dependencies": {
 		"echarts": "^4.9.0",

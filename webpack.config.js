@@ -13,7 +13,15 @@ module.exports = {
 		path: path.resolve(__dirname, 'public'),
 		filename: 'bundle.js'
 	},
-
+	// module: {
+	// 	rules: [
+	// 		{
+	// 			test: /\.(png|jpg)$/,
+	// 			exclude: /node_modules/,
+	// 			loader: 'url-loader'
+	// 		}
+	// 	]
+	// },
 	// Default mode for Webpack is production.
 	// Depending on mode Webpack will apply different things
 	// on final bundle. For now we don't need production's JavaScript
