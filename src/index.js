@@ -90,6 +90,7 @@ if (document.getElementById('main')) {
 		animationEasingUpdate: 'quinticInOut',
 		series: [
 			{
+				zoom: 0.8,
 				name: 'Les Miserables',
 				type: 'graph',
 				layout: 'circular',
