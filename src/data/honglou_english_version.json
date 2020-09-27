@@ -1,6 +1,11 @@
 {
   "categories": {
     "person": "人物",
+    "Jinling":"金陵十二钗｜Jinling, Twelve Beauties of MainRegister",
+    "zhuyao":"其他主要人物",
+    "fuce":"金陵十二钗副册",
+    "youfuce":"金陵十二钗又副册",
+    "guan":"红楼十二官",
     "event": "事件",
     "location": "地点"
   },
@@ -758,7 +763,7 @@
         "image": "./images/photo/贾宝玉.jpg",
         "id": 3863,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "荣国府衔玉而诞的公子，贾政与王夫人之次子，阖府捧为掌上明珠，对他寄予厚望，他却走上了叛逆之路，痛恨八股文，批判程朱理学，给那些读书做官的人起名“国贼禄蠹”。他不fond“正经书”，却偏爱《牡丹亭》《西厢记》之类的“杂书”。他终日与家里的女孩们厮混，爱她们美丽纯洁，伤悼她们的薄命悲剧。——————The first chapter describes how one piece of stone was left over from when the Wall of Heaven was repaired by the Goddess Nüwa. That stone, changed into a piece of luminous jade, is given a chance to learn the emptiness of human existence by following another incarnation who is to be Jia Baoyu. Baoyu is thus born with a magical piece of jade in his mouth. His name, which literally means ‘precious jade’, was given him in honor of this. The jade and Baoyu share a mystical link, and the Cheng-Gao version ends after the jade is lost for good and Baoyu himself disappears.The second son of Jia Zheng and Madame Wang, the son of the Rongguo family was born with jadeite. The whole family had high hopes for him. He hates the Eight Gui Writings and criticizes the philosophy of Ching and Zhu. He does not like ‘serious books’ and prefers ‘miscellaneous books’ like ‘The Peony Pavilion’ and ‘The Story of the Western Wing’. He spends his days with the girls of his family, loving their beauty and purity and mourning their tragic lives."
       },
@@ -805,9 +810,9 @@
         "image": "./images/photo/贾赦.jpg",
         "id": 3868,
         "categories": [
-          "person"
+          "zhuyao"
         ],
-        "info": "字恩侯，荣国公之孙，贾代善、贾母之长子，邢夫人的husband，贾琏、迎春的father，是个无耻之徒，他承袭了一等将军之职爵位。生性好色，妾室一片，平日依官作势，行为不检。他不满贾母偏向弟弟贾政，与贾母、贾政貌合神离。这个无耻的封建阶级的末代子孙，终于遭到查抄家产，革去世职，远离都城，充军边地的应得下场。——————He was the grandson of General Rongguo, the eldest son of Jia Daishan and Jia Mu, the husband of Lady Xing, the father of Jia Lian and Yingchun, and a shameless man who inherited the title of First Class General. He is a lustful man with concubines and misbehaves in everyday life. He was unhappy with Grandmother Jia's favoritism towards her brother Jia Zheng, and was unhappy with his mother's and Jia Zheng's appearance. This shameless descendant of the last generation of the feudal class was finally confiscated from his family, dismissed from his post, and sent to the frontier far away from the capital city."
+        "info": "字恩侯，荣国公之孙，贾代善、贾母之长子，邢夫人的丈夫，贾琏、迎春的父亲，是个无耻之徒，他承袭了一等将军之职爵位。生性好色，妾室一片，平日依官作势，行为不检。他不满贾母偏向弟弟贾政，与贾母、贾政貌合神离。这个无耻的封建阶级的末代子孙，终于遭到查抄家产，革去世职，远离都城，充军边地的应得下场。——————He was the grandson of General Rongguo, the eldest son of Jia Daishan and Jia Mu, the husband of Lady Xing, the father of Jia Lian and Yingchun, and a shameless man who inherited the title of First Class General. He is a lustful man with concubines and misbehaves in everyday life. He was unhappy with Grandmother Jia's favoritism towards her brother Jia Zheng, and was unhappy with his mother's and Jia Zheng's appearance. This shameless descendant of the last generation of the feudal class was finally confiscated from his family, dismissed from his post, and sent to the frontier far away from the capital city."
       },
       {
         "label": "贾政——————Jia Zheng",
@@ -815,9 +820,9 @@
         "image": "./images/photo/贾政.jpg",
         "id": 3869,
         "categories": [
-          "person"
+          "zhuyao"
         ],
-        "info": "字存周，贾母和贾代善所生的次子，贾宝玉的father，林黛玉的舅舅，薛宝钗的姨父。他是除贾母外荣国府的最高掌权者，但同贾母一样不常管理府中大小俗务，每日只看书著棋，同一众清客闲聊，是名副其实的甩手掌柜，他并不喜好繁华奢侈的生活，在游览大观园时亦有过归农隐逸之意。他自幼好读书，但并不是天生的方正呆板，出仕前，他“也是个诗酒放诞之人”，但“一切为的是光宗耀祖”，因此重视读书上进，归于正途。为人端方正直，谦恭厚道，人品端方，风声清肃。礼贤下士，济弱扶危，大有祖风，惟失之于迂腐。他一心孝顺贾母，亦想严厉管教子女；他想作好官，可是不谙世情，只解打躬作揖，终日臣坐，形同泥塑，遭人蒙骗，弄得声名狼藉。——————He is the second son of Grandma Jia and Jia Daishan, father of Jia Baoyu, uncle of Lin Daiyu, and uncle of Xue Baochai. He was the highest ruler of the Rongguo residence except for Jia's mother, but like Jia's mother, he did not often manage the affairs of the residence and only read books, played chess, and chatted with the literati. He was not fond of luxurious life and had the intention of returning to farming and secluding himself. He was a good reader since childhood, but he was not born square and stiff, before he became a public servant, he was also a person of poetry and liquor, but  all for the glory of the ancestors, so he attached importance to education and advancement, to the right way. He was an honest and upright man, and he wanted to be filial to his mother and discipline his children. He wanted to be a good official, but he was deceived and became notorious for his lack of understanding of the world."
+        "info": "字存周，贾母和贾代善所生的次子，贾宝玉的父亲，林黛玉的舅舅，薛宝钗的姨父。他是除贾母外荣国府的最高掌权者，但同贾母一样不常管理府中大小俗务，每日只看书著棋，同一众清客闲聊，是名副其实的甩手掌柜，他并不喜好繁华奢侈的生活，在游览大观园时亦有过归农隐逸之意。他自幼好读书，但并不是天生的方正呆板，出仕前，他“也是个诗酒放诞之人”，但“一切为的是光宗耀祖”，因此重视读书上进，归于正途。为人端方正直，谦恭厚道，人品端方，风声清肃。礼贤下士，济弱扶危，大有祖风，惟失之于迂腐。他一心孝顺贾母，亦想严厉管教子女；他想作好官，可是不谙世情，只解打躬作揖，终日臣坐，形同泥塑，遭人蒙骗，弄得声名狼藉。——————He is the second son of Grandma Jia and Jia Daishan, father of Jia Baoyu, uncle of Lin Daiyu, and uncle of Xue Baochai. He was the highest ruler of the Rongguo residence except for Jia's mother, but like Jia's mother, he did not often manage the affairs of the residence and only read books, played chess, and chatted with the literati. He was not fond of luxurious life and had the intention of returning to farming and secluding himself. He was a good reader since childhood, but he was not born square and stiff, before he became a public servant, he was also a person of poetry and liquor, but  all for the glory of the ancestors, so he attached importance to education and advancement, to the right way. He was an honest and upright man, and he wanted to be filial to his mother and discipline his children. He wanted to be a good official, but he was deceived and became notorious for his lack of understanding of the world."
       },
       {
         "label": "贾蓉——————Jia Rong",
@@ -825,9 +830,9 @@
         "image": "./images/photo/贾蓉.jpg",
         "id": 3870,
         "categories": [
-          "person"
+          "zhuyao"
         ],
-        "info": "贾珍之子，是一个十六七岁的少年，面目清秀，身材俊俏，轻裘宝带，美服华冠的男子。他原为监生，wife秦可卿死后，为了在丧礼上风光些，father贾珍花了一千两百两银子给他捐了个五品龙禁尉。贾蓉长得是面目清秀，细挑身材，但生活上却和他father贾珍一样荒淫无耻。——————The son of Jia Zhen was a young man of sixteen or seventeen, with a clear face and a handsome figure. He was originally a prisoner, but after his wife Qin Keqing's death, in order to be more glamorous at the funeral, his father Jia Zhen spent 1,200 taels of silver to donate him a fifth-grade dragon forbidden captain. Jia Rong was very handsome, but his life was just as shamelessly lascivious as his father Jia Zhen's. Jia Rong was a handsome man, but his father was just as shamelessly lascivious."
+        "info": "贾珍之子，是一个十六七岁的少年，面目清秀，身材俊俏，轻裘宝带，美服华冠的男子。他原为监生，妻子秦可卿死后，为了在丧礼上风光些，父亲贾珍花了一千两百两银子给他捐了个五品龙禁尉。贾蓉长得是面目清秀，细挑身材，但生活上却和他father贾珍一样荒淫无耻。——————The son of Jia Zhen was a young man of sixteen or seventeen, with a clear face and a handsome figure. He was originally a prisoner, but after his wife Qin Keqing's death, in order to be more glamorous at the funeral, his father Jia Zhen spent 1,200 taels of silver to donate him a fifth-grade dragon forbidden captain. Jia Rong was very handsome, but his life was just as shamelessly lascivious as his father Jia Zhen's. Jia Rong was a handsome man, but his father was just as shamelessly lascivious."
       },
       {
         "label": "贾蔷——————Jia Qiang",
@@ -835,7 +840,7 @@
         "image": "./images/photo/贾蔷.jpg",
         "id": 3871,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "宁国府的正派玄孙。他父母早亡，从小跟贾珍过活，比贾蓉生得还风流俊俏。虽然每日应名去上学，亦只不过虚掩眼目而已，仍旧是斗鸡走狗，赏花阅柳。他上有贾珍溺爱，下有贾蓉匡助，越发自大起来。后成了贾府小戏班梨香院的总管，与小旦龄官相好。——————NingMansion's real Xuan grandson. His parents died young, and he grew up with Jia Zhen, who was even more handsome than Jia Rong. Although he goes to school every day under the name of Jia Rong, he is only an eye-candy, but he still likes to have fun and is lascivious. He was doted on by Jia Zhen and helped by Jia Rong. Later, he became the manager of Pear Fragrance Court, a small opera troupe in the Jia residence, and was in love with the young Dan Charmante."
       },
@@ -847,7 +852,7 @@
         "categories": [
           "person"
         ],
-        "info": "贾珠与李纨之子。关于贾兰的人物结局，高鹗整理的后40回中的描述是：贾兰成年后考中第一百三十七名举人。——————The son of Jia Zhu and Li Fan."
+        "info": "贾珠与李纨之子。——————The son of Jia Zhu and Li Fan."
       },
       {
         "label": "贾珍——————Jia zhen",
@@ -855,7 +860,7 @@
         "image": "./images/photo/贾珍.jpg",
         "id": 3873,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "贾敬之子，贾演曾孙。世袭三品爵威烈将军。生活穷奢极欲，虽有一妻二妾，但仍和儿媳秦可卿、妻妹尤二姐关系暧昧。秦可卿死后，是他流泪向王夫人请求让王熙凤料理丧事，让她“爱怎么办就怎么样办”，铺排浪费，为丧礼风光，特意花一千二百两银子为儿子贾蓉捐了个五品龙禁尉，而儿媳葬礼的奢华也证明了他们之间的不正当关系。后因作恶多端，被人参奏革去世职，发配海疆。——————Son of Jia Jing, great-grandson of Jia Yan. He was the son of Jia Jing and the great grandson of Jia Yan. Although he had one wife and two concubines, he still had an ambiguous relationship with his daughter-in-law, Qin Keqing, and his sister-in-law, You Er. After Qin Keqing's death, he spent 1,200 taels of silver to donate a fifth-grade Dragon Warrant Officer for his son Jia Rong, and the lavish funeral of his daughter-in-law proved their illicit relationship. Later, because of his evil deeds, he was dismissed from his post and sent to the sea."
       },
@@ -865,9 +870,9 @@
         "image": "./images/photo/贾琏.jpg",
         "id": 3874,
         "categories": [
-          "person"
+          "zhuyao"
         ],
-        "info": "贾赦的长子，刑夫人无子女,异母妹妹迎春,wife王熙凤,女儿巧姐。他捐了个同知的官位，不fond读书谋求官位。住在荣国府，和wife王熙凤帮着料理荣府家务，在贾府一众男子中算是第一得力干练之人。他最大的缺点是好色，但并不像贾珍、薛蟠等那样强人所难。女儿巧姐出天花，按迷信要夫妻分房，他一离开王熙凤就找“多姑娘” 鬼混。王熙凤去过生日宴会，他就把鲍二媳妇勾搭上手，见了尤二姐，又贪图其美色，骗娶为二房。father贾赦却夸他能干，又把自己的丫环秋桐赏给他。从他不赞同贾雨村为了几把扇子把石呆子害得坑家败业、真情对待尤二姐之死，以及劝阻王熙凤将彩霞配给旺儿品德不好的儿子等事中，可以看出他富有同情心、做事有底线，不以自己世家公子的身份压榨别人。他同王熙凤的关系由一开始的和美转为同床异梦，可以看成是王熙凤的悲剧，也是他的悲剧。——————Jia Pao's eldest son, half-sister Yingchun, wife Wang Xifeng, daughter Qiaojie. He donated an official position in the same Zhi, do not like to study to seek official position. He lives in the Rongguo Mansion, and helps to take care of it with his wife Wang Xifeng, and is considered to be the first competent person among all the men in the Jia Mansion. His greatest weakness was his lust for women, but he was not as forceful as Jia Zhen and Xue Ban. However, he is compassionate and does not use his position as the son of a noble family to exploit others. The relationship between him and Wang Xifeng changes from amicable at the beginning to sharing the same bed, which can be seen as Wang Xifeng's tragedy as well as his tragedy."
+        "info": "贾赦的长子，刑夫人无子女,异母妹妹迎春,wife王熙凤,女儿巧姐。他捐了个同知的官位，不读书谋求官位。住在荣国府，和妻子王熙凤帮着料理荣府家务，在贾府一众男子中算是第一得力干练之人。他最大的缺点是好色，但并不像贾珍、薛蟠等那样强人所难。女儿巧姐出天花，按迷信要夫妻分房，他一离开王熙凤就找“多姑娘” 鬼混。王熙凤去过生日宴会，他就把鲍二媳妇勾搭上手，见了尤二姐，又贪图其美色，骗娶为二房。父亲贾赦却夸他能干，又把自己的丫环秋桐赏给他。从他不赞同贾雨村为了几把扇子把石呆子害得坑家败业、真情对待尤二姐之死，以及劝阻王熙凤将彩霞配给旺儿品德不好的儿子等事中，可以看出他富有同情心、做事有底线，不以自己世家公子的身份压榨别人。他同王熙凤的关系由一开始的和美转为同床异梦，可以看成是王熙凤的悲剧，也是他的悲剧。——————Jia Pao's eldest son, half-sister Yingchun, wife Wang Xifeng, daughter Qiaojie. He donated an official position in the same Zhi, do not like to study to seek official position. He lives in the Rongguo Mansion, and helps to take care of it with his wife Wang Xifeng, and is considered to be the first competent person among all the men in the Jia Mansion. His greatest weakness was his lust for women, but he was not as forceful as Jia Zhen and Xue Ban. However, he is compassionate and does not use his position as the son of a noble family to exploit others. The relationship between him and Wang Xifeng changes from amicable at the beginning to sharing the same bed, which can be seen as Wang Xifeng's tragedy as well as his tragedy."
       },
       {
         "label": "贾琮——————Jia Cong",
@@ -893,7 +898,7 @@
         "image": "./images/photo/贾环.jpg",
         "id": 3877,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "同贾宝玉为同父异母的弟弟，其母为贾政之妾赵姨娘。贾环颇为顽劣，赶围棋玩耍时，与丫头莺儿撒泼耍赖。贾环十分忌恨其兄贾宝玉，多次陷害宝玉。故意拨翻烛台 ，烫伤宝玉。金钏跳井事件后，诬陷宝玉，使得宝玉遭受贾政毒打。贾环因常常受到不公平对待而生不平、妒嫉之心；贾环虽行为无赖，然而也算尚学，小有才华。——————Jia Baoyu is the half-brother of Jia Zheng's concubine, Aunt Zhao. Jia Huan was quite stubborn and played tricks on Oriole when they were playing Go. Jia Huan was very jealous of his brother, Jia Baoyu, and repeatedly framed Baoyu. Jia Huan was jealous of the unfair treatment he received and was very jealous of his brother."
       },
@@ -930,7 +935,7 @@
         "image": "./images/photo/秦钟.jpg",
         "id": 3881,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "表字鲸卿。秦业五十三岁时得的儿子，秦可卿的弟弟。他生得眉清目秀，粉面朱唇，身材俊俏，举止风流，怯怯羞羞的有些女儿之态。秦钟本性怯弱，且带病未痊，受了笞杖，今见老父气死，又添了许多病症，不几日也死了。——————Qin Zhong is around 12 when he first meets Baoyu and only survives for a few years. His elder sister is Qin Keqing, Baoyu's nephew Jia Rong's wife, and so he is technically a generation younger than Baoyu. Both he and Qin Keqing are the adopted children of Qin Ye (秦業). The two boys get along marvelously well and decide to enroll in the Jia clan's school together and become study-mates. He becomes Baoyu's best friend and perhaps lover, mocked by schoolmates for their closeness."
       },
@@ -967,7 +972,7 @@
         "image": "./images/photo/薛蟠.jpg",
         "id": 3885,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "字文龙（一作“文起”），外号“呆霸王”，薛姨妈之子，薛宝钗之兄。因幼年丧父，寡母又纵容溺爱，终日唯有斗鸡走马，游山玩水。薛蟠任性弄气，诨号呆霸王。不过，薛蟠也很重义气。——————He is a ne'er-do-well lout who is guilty of the killing of a man over a beautiful slave girl, Zhen Yinglian, who is renamed as Xiangling (Lotus). He has the manslaughter case done over with money, then escapes to the capital from Jinling.He is the elder brother of Xue Baochai and the son of Aunt Xue. Pan was also a local bully in Jinling City, where the Xues came from. He is a total opposite of Baochai, who is tactful and cultivated, although he has genuine respect for his sister. He is on the other hand tactless and uncouth, and mixes around with bad company. He eventually marries a shrew, Xia Jingui, who causes much misery to Aunt Xue, Baochai, Xiangling and himself."
       },
@@ -977,7 +982,7 @@
         "image": "./images/photo/薛蝌.jpg",
         "id": 3886,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "皇商之子，薛姨妈的侄儿，薛宝琴的胞兄，薛宝钗的堂弟。——————The son of an imperial merchant, nephew of Aunt Xue, brother of Xue Baoqin and cousin of Xue Baochai."
       },
@@ -1006,7 +1011,7 @@
         "categories": [
           "person"
         ],
-        "info": "贾母的brother。——————Grandmother Jia's brother."
+        "info": "贾母的哥哥。——————Grandmother Jia's brother."
       },
       {
         "label": "柳湘莲——————Liu Xianglian",
@@ -1014,7 +1019,7 @@
         "image": "./images/photo/柳湘莲.jpg",
         "id": 3890,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "又称冷面二郎，原系世家子弟。他父母早丧，读书不成。性情豪爽，酷好耍枪舞剑，赌博吃酒，以至眠花宿柳，吹笛弹筝，无所不为。他生得又美，是一个业余的戏剧演员，最喜串戏，擅演生旦风月戏文，在书中和宝玉最合得来。有一次在赖大家赴宴，薛蟠酒后向他调情，被他骗至北门（今德胜门）外苇子坑打了个半死，事后，远走他乡。 后又在路上救了薛蟠，与薛蟠结为兄弟。足见其无邪之心。行事草率，不负责任。——————His parents died at an early age and he was unable to study. He is a bold and generous man who is good with guns and swords, gambling, drinking, playing the flute and zither, and everything else. He was a very pretty boy, an amateur dramatic actor, and he got along well with Baoyu in the books. Once, when Xue Pang flirted with him after a banquet at Lai's house, he beat him half to death and then left for another country. Afterwards, he ran away from his hometown and saved Xue Ban on the way. This shows his innocence. He acted rashly and irresponsibly."
       },
@@ -1024,7 +1029,7 @@
         "image": "./images/photo/贾雨村.jpg",
         "id": 3891,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "贾雨村是一个提纲挈领式的人物，以“假语村言”提醒读者，统率全文。 贾雨村，名化，字时飞，别号雨村，故为“假语村言”。原系湖州人氏，生于仕宦人家。但到他时，祖宗根基已尽，人口衰丧，只剩下他一人。他想进京求取功名，无奈囊内空空，只得暂寄姑苏城里葫芦庙中安身，每日卖文作字为生。后因甄士隐相助，他才有钱上路，考中进士，做了知府。不久因贪酷徇私被革职，受聘至林如海家任林黛玉启蒙教师。在贾政的极力帮助下，他又官复原职，但为官不正，乱判了一起“葫芦案”（为“糊涂案”），后来这一案件被世人所知，因为“因嫌纱帽小，致使锁枷杠”。——————Jia Yucun was the childhood tutor of Lin Daiyu. He later ask the help of his distant relatives in the Jia Family to obtain a job and title in the capital."
       },
@@ -1034,7 +1039,7 @@
         "image": "./images/photo/贾瑞.jpg",
         "id": 3892,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "贾府义学塾贾代儒的长孙。贪图便宜又好色，欺自己的嫂子，死于王熙凤设的“相思局”中。——————Jia Dai Ru's eldest grandson. He was cheap and lustful, greedy for his sister-in-law's beauty, and eventually died in a love-affair set up by Wang Xifeng."
       },
@@ -1043,7 +1048,7 @@
         "value": 6,
         "id": 3893,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "忠顺王府戏班的名角，擅唱小旦，小名琪官（一作棋官）。贾宝玉曾以玉玦扇坠和袭人所给松花汗巾相赠，蒋玉菡回赠以北静王所赐茜香国女国王贡奉的大红汗巾。贾府彻底败落后，蒋玉菡娶宝玉房中大丫头袭人为妻。在贾府被抄家后，蒋玉菡夫妇资助了贫穷的贾宝玉夫妇。蒋玉菡妩媚温柔，随机应答，很有礼貌。——————A famous actress in the opera troupe of the Zhongshun royal family, she was an excellent singer and was known by her nickname Bijou, and was given a jade pendant and a turquoise kerchief by Aroma in return for which she was given a red kerchief by the King of Northern Jing. The Jia family was completely ruined and Jiang Yuhan married Aroma. After the confiscation of the Jia residence, Jiang Yuhan and his wife support the poor Jia Baoyu and his wife. Jiang Yuhan is feminine and gentle, and responds to random questions."
       },
@@ -1053,9 +1058,9 @@
         "image": "./images/photo/贾芸.jpg",
         "id": 3894,
         "categories": [
-          "person"
+          "zhuyao"
         ],
-        "info": "生有一张容长脸儿，长挑身材，甚是斯文清秀。father早逝，因贾宝玉一句玩笑话“像我儿子”，他便伶俐地说：“如若宝叔不嫌侄儿蠢笨，认作儿子，就是我的造化了。”贾芸，贾府族人，西廊下五嫂子的儿子。为了到荣国府谋事做，对凤姐百般奉承，又夸她能干又送她香料，得了一个管花草的职位。而为了攀入贾府中心，他不惜对小他几岁的宝玉认father，并赠了两盆白海棠。而他也是一个重情重义的人，贾府败落后帮助过身陷困境的宝玉和凤姐，并fond上了丫头小红，捡到她的手帕后一番接触，两人渐渐陷入爱河，上演了一出和宝黛之恋同样纯美的爱情故事。——————Jia Yun, a member of the Jia Clan. In order to find a job in the Rongguo residence, she flatters Wang Xifeng, praises her for her ability and gives her spices, and gets a position in charge of flowers and plants. In order to get into the heart of the Jia family, he acknowledges his father to Jia Baoyu, who is a few years younger than him, and gives her two pots of white begonias. He is also a man of great affection and loyalty, after the defeat of the Jia family, helped Jia Baoyu and Wang Xifeng in trouble, and fell in love with the girl Crimson, found her handkerchief after the two gradually fell in love, staged a pure and beautiful love story!"
+        "info": "生有一张容长脸儿，长挑身材，甚是斯文清秀。父亲早逝，因贾宝玉一句玩笑话“像我儿子”，他便伶俐地说：“如若宝叔不嫌侄儿蠢笨，认作儿子，就是我的造化了。”贾芸，贾府族人，西廊下五嫂子的儿子。为了到荣国府谋事做，对凤姐百般奉承，又夸她能干又送她香料，得了一个管花草的职位。而为了攀入贾府中心，他不惜对小他几岁的宝玉认父亲，并赠了两盆白海棠。而他也是一个重情重义的人，贾府败落后帮助过身陷困境的宝玉和凤姐，并爱上了丫头小红，捡到她的手帕后一番接触，两人渐渐陷入爱河，上演了一出和宝黛之恋同样纯美的爱情故事。——————Jia Yun, a member of the Jia Clan. In order to find a job in the Rongguo residence, she flatters Wang Xifeng, praises her for her ability and gives her spices, and gets a position in charge of flowers and plants. In order to get into the heart of the Jia family, he acknowledges his father to Jia Baoyu, who is a few years younger than him, and gives her two pots of white begonias. He is also a man of great affection and loyalty, after the defeat of the Jia family, helped Jia Baoyu and Wang Xifeng in trouble, and fell in love with the girl Crimson, found her handkerchief after the two gradually fell in love, staged a pure and beautiful love story!"
       },
       {
         "label": "倪二——————Ni Er",
@@ -1073,7 +1078,7 @@
         "image": "./images/photo/林如海.jpg",
         "id": 3896,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "姑苏林家的子孙，娶妻贾敏（已先于林如海病故），育有一子，三岁时没了，仅有一女林黛玉。——————A scion of the Lin family, soochow married Jia Min (who had already preceded Lin Ruhai in illness) and had a son, who was lost at the age of three, and Lin Daiyu was his daughter."
       },
@@ -1083,7 +1088,7 @@
         "image": "./images/photo/焦大.jpg",
         "id": 3897,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "从小跟宁国公贾演出过三四回兵，曾从死人堆里把奄奄一息的主子背出来。没有饭吃，他饿著肚子去偷东西给主子吃，没有水喝，他自己喝马尿，把得来的半碗水给主子喝。由于以往的功劳情分，宁府的主子们对他另眼相看，不大难为他。他对宁国府后代糜烂的生活深恶痛绝，也只有他在喝醉酒后敢大骂他们：“每日偷狗戏鸡，爬灰的爬灰，养小叔子的养小叔子”，吓得众小厮魂飞魄丧，把他捆起来，用土和马粪满满填了他一嘴。——————Since he was a child, he had been on three or four expeditions with Jia act, and had carried the dying Jia act out from the dead. With no food to eat, he went hungry and stole food for his masters. Due to his past merits, NingMansion's masters looked at him differently and did not have much trouble with him. He abhorred the surly lives of Ning's offspring, and he was the only one who dared to curse them when he was drunk."
       },
@@ -1130,7 +1135,7 @@
         "categories": [
           "person"
         ],
-        "info": "红楼梦中史侯是史湘云祖父的father，有两个孩子，分别是史太君和史湘云祖父。女孩史太君嫁入贾代善门下，也就是我们说的贾母。而儿子有三个孩子，史鼐和史鼎和史湘云的爸爸。史湘云父母只有史湘云一个孩子，史湘云嫁给了卫若兰。——————In Dream of Red Mansions, Marquis Shi is the father of Shi Xiangyun's grandfather, who has two children, Shi Taijun (Grandmother Jia) and Shi Xiangyun's grandfather. The son has three children, Shi Nai and Shi Ding and one is Shi Xiangyun's father. Shi Xiangyun's parents had only one child, Shi Xiangyun married Wei Ruolan."
+        "info": "红楼梦中史侯是史湘云祖父的父亲，有两个孩子，分别是史太君和史湘云祖父。女孩史太君嫁入贾代善门下，也就是我们说的贾母。而儿子有三个孩子，史鼐和史鼎和史湘云的爸爸。史湘云父母只有史湘云一个孩子，史湘云嫁给了卫若兰。——————In Dream of Red Mansions, Marquis Shi is the father of Shi Xiangyun's grandfather, who has two children, Shi Taijun (Grandmother Jia) and Shi Xiangyun's grandfather. The son has three children, Shi Nai and Shi Ding and one is Shi Xiangyun's father. Shi Xiangyun's parents had only one child, Shi Xiangyun married Wei Ruolan."
       },
       {
         "label": "甄士隐——————Zhen Shiyin",
@@ -1138,7 +1143,7 @@
         "image": "./images/photo/甄士隐.jpg",
         "id": 3903,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "姓甄，名费，谐音“废”，字士隐。“甄士隐”取意为“真事隐”。书中有“因曾历过一番梦幻之后，故将真事隐去。”一句。正如贾雨村是“假语村言”一样。甄士隐是和贾雨村两相对照而写的，作者在开卷第一段里就明确表示他撰拟这两个名字的寓意。写甄士隐是为了写一个经历了骨肉分离、家遭火灾、下半世坎坷而终于醒悟出世的人物形象。他可能是作者自身的影子，同时也是提系着全书主题的一个线索。——————Zhen Shiyin also known as Zhen Fei is the father of Xiangling. He is also a good friend of Jia Yucun. In the Chapter 1, his daughter get kidnapped and he never see her again. He may be the author's own shadow, but also a mention A clue to the theme of the book."
       },
@@ -1158,7 +1163,7 @@
         "image": "./images/photo/板儿.jpg",
         "id": 3905,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "刘姥姥的外孙。在小说第六回“刘姥姥一进荣国府”中，多处生动地描写了板儿未经世面的村野孩童形象。及至成年，娶贾巧姐为妻。——————Granny Liu's grandson. In Chapter 6, when Granny Liu enters the Rongguo residence, there are many vivid depictions of Ban er as an untutored village child. When he reaches adulthood, he marries Jia Qiaojie."
       },
@@ -1168,9 +1173,9 @@
         "image": "./images/photo/孙绍祖.jpg",
         "id": 3906,
         "categories": [
-          "person"
+          "zhuyao"
         ],
-        "info": "迎春husband孙绍祖在家境困难时曾经拜倒在贾府门下，乞求帮助。后来，孙绍祖在京袭了官职，又“在兵部候缺题升”，贾家衰败后，孙绍祖向他逼债，任意践踏迎春。迎春判词有“迎春遭遇中山狼”一幅，画中的孙绍祖，高壮如异兽，十分可怕。“中山狼”之形态毕出也。在这桩弱女悍夫的不幸婚姻的室内细节，文字没有写到之处，似乎都可从画中窥出。——————Jia Yingchun's husband, Sun Shaozu, was once begging for help from the Jia family when the family was in dire straits. Later, Sun Shaozu became an official in the capital and trampled on Jia Yingchun at will. He is a vicious and terrible xiao."
+        "info": "迎春丈夫孙绍祖在家境困难时曾经拜倒在贾府门下，乞求帮助。后来，孙绍祖在京袭了官职，又“在兵部候缺题升”，贾家衰败后，孙绍祖向他逼债，任意践踏迎春。迎春判词有“迎春遭遇中山狼”一幅，画中的孙绍祖，高壮如异兽，十分可怕。“中山狼”之形态毕出也。在这桩弱女悍夫的不幸婚姻的室内细节，文字没有写到之处，似乎都可从画中窥出。——————Jia Yingchun's husband, Sun Shaozu, was once begging for help from the Jia family when the family was in dire straits. Later, Sun Shaozu became an official in the capital and trampled on Jia Yingchun at will. He is a vicious and terrible xiao."
       },
       {
         "label": "李贵——————Li Gui",
@@ -1178,9 +1183,9 @@
         "image": "./images/photo/李贵.jpg",
         "id": 3907,
         "categories": [
-          "person"
+          "zhuyao"
         ],
-        "info": "李嬷嬷子，宝玉之贴身attendant。虽不识书，学舌什么“呦呦鹿鸣，荷叶浮萍”，但颇明事理，众顽童大闹学堂时亏他力劝，并指明各人的不是，方才平息了事端。宝玉探秦钟时，他亦如长兄般慰藉。他在贾府中亦是体面的男仆，有小厮服侍。——————The son of Jia Baoyu's nanny, Baoyu's personal sidekick. Although he is not a scholar, he is quite sensible and sensible. When the children were making a scene in the school, he helped to calm down the situation by showing them what was wrong. When Baoyu visited Qin Zhong, he was as comforting as an elder brother. In the Jia residence, he was also a respectable manservant, with other servants to serve him."
+        "info": "李嬷嬷子，宝玉之贴身跟班。虽不识书，学舌什么“呦呦鹿鸣，荷叶浮萍”，但颇明事理，众顽童大闹学堂时亏他力劝，并指明各人的不是，方才平息了事端。宝玉探秦钟时，他亦如长兄般慰藉。他在贾府中亦是体面的男仆，有小厮服侍。——————The son of Jia Baoyu's nanny, Baoyu's personal sidekick. Although he is not a scholar, he is quite sensible and sensible. When the children were making a scene in the school, he helped to calm down the situation by showing them what was wrong. When Baoyu visited Qin Zhong, he was as comforting as an elder brother. In the Jia residence, he was also a respectable manservant, with other servants to serve him."
       },
       {
         "label": "赵天梁——————Zhao Tianliang",
@@ -1206,7 +1211,7 @@
         "image": "./images/photo/贾代儒.jpg",
         "id": 3910,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "贾代儒是贾府中“代”字辈的长辈，其人生有三大不幸：早年丧父，中年丧子，晚年丧孙。宝玉两次进塾就读，八股文也是跟他学的。他儿子、儿媳均早亡，故担负起对孙子的教养责任。他对贾瑞管教甚严，一旦贾瑞在外擅自过夜，他必定重罚。——————Jia Dai Ru was the elder of the Jia family, and his life was marked by three major misfortunes: the loss of his father in his early years, the loss of his son in his middle years, and the loss of his grandson in his later years. Bao Yu went to school twice, and learned the Eight Gu Zi from him. His son and daughter-in-law all died young, so he took on the responsibility of raising his grandson. He was very strict with Jia Rui, and if Jia Rui stayed overnight without permission, he would always punish him severely."
       },
@@ -1246,7 +1251,7 @@
         "categories": [
           "person"
         ],
-        "info": "怡红院大丫环花袭人之兄。 因生活困顿，与父母一道将袭人卖与贾府。father死后，情况渐好，遂又和mother商议，要赎出袭人。宝玉私访花家，自芳惶恐相见，殷勤款待，曲尽奴才之意。一二〇回写到其写到其妻及亲戚们做媒，将袭人嫁与蒋玉菡。——————Aroma is the brother of Aroma, the eldest maid in Yik Hong Yuan. After his father's death, the family's situation improves, and he and his mother discuss the possibility of redeeming Aroma."
+        "info": "怡红院大丫环花袭人之兄。 因生活困顿，与父母一道将袭人卖与贾府。父亲死后，情况渐好，遂又和母亲商议，要赎出袭人。宝玉私访花家，自芳惶恐相见，殷勤款待，曲尽奴才之意。——————Aroma is the brother of Aroma, the eldest maid in Yik Hong Yuan. After his father's death, the family's situation improves, and he and his mother discuss the possibility of redeeming Aroma."
       },
       {
         "label": "王成之父——————Wang Cheng's father",
@@ -1347,7 +1352,7 @@
         "categories": [
           "person"
         ],
-        "info": "贾璜wife的娘家侄子。——————Juan's wife's maiden nephew."
+        "info": "贾璜的娘家侄子。——————Juan's wife's maiden nephew."
       },
       {
         "label": "茗烟——————Tealeaf ",
@@ -1355,7 +1360,7 @@
         "image": "./images/photo/茗烟.jpg",
         "id": 3926,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "贾宝玉最得力的书僮和小厮就叫焙茗。 一般认为焙茗即茗烟。但早期版本的《红楼梦》中并未交代改名事宜。 程本及后来的通行本在二十四回中有交代： 只见茗烟在那里掏小雀儿呢。贾芸在他身后，把脚一跺，道：“茗烟小猴儿又淘气了！”茗烟回头，见是贾芸，便笑道：“何苦二爷唬我们这么一跳。”因又笑说：“我不叫‘茗烟’了，我们宝二爷嫌‘烟’字不好，改了叫‘焙茗’了。二爷明儿只叫我焙茗罢。”贾芸点头笑着同进书房，便坐下问：“宝二爷下来了没有？”——————Jabberwocky's best servant boy and lackey, who had once changed his name."
       },
@@ -1365,7 +1370,7 @@
         "image": "./images/photo/潘又安.jpg",
         "id": 3927,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "贾府小厮，司棋青梅竹马的姑舅表弟。他性格懦弱，胆小怕事，跟司棋在大观园幽会被鸳鸯撞见，畏罪远遁。他发财回家，意欲迎娶司棋，无奈司母不从，司棋撞墙身亡，他也殉情自尽。——————A young man from the Jia Mansion, Chess' childhood friend's uncle and cousin. He is cowardly and fearful, so he runs away with Chess when they meet in the Grand View Garden. He is a rich man who wants to marry Chess, but Chess's mother refuses to let him, so he crashes into a wall and dies."
       },
@@ -1535,7 +1540,7 @@
         "categories": [
           "person"
         ],
-        "info": "薛宝琴的husband。——————Xue Baoqin's husband."
+        "info": "薛宝琴的丈夫。——————Xue Baoqin's husband."
       },
       {
         "label": "吴兴登——————Wu Xingdeng",
@@ -1579,7 +1584,7 @@
         "value": 3,
         "id": 3951,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "贾雨村的门子，见风使舵，善于专营。——————He Jia Yucun's subordinates are good at flexibility and interpersonal relationships."
       },
@@ -1607,7 +1612,7 @@
         "image": "./images/photo/北静王.jpg",
         "id": 3954,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "北静王，名水溶，年未弱冠，形容秀美，性情谦和。因祖上与贾府有世交之谊，故从未以异姓相见，更不以王位自居。——————King Bejing, known as Shuirong, is a young man with a handsome face and a modest disposition. Because of his ancestor's friendship with Jiafu, he has never met anyone with a different surname, nor does he claim to be a king."
       },
@@ -1664,7 +1669,7 @@
         "categories": [
           "person"
         ],
-        "info": "南安郡王是一位王爷。《红楼梦》里后来写贾府为秦可卿大办丧事，来了四家王爷engage祭奠，他们是东平郡王、南安郡王、西宁郡王和北静郡王。——————Lord Nan'an was a prince. Later in Dream of the Red Chamber, the Jia family held a funeral for Qin Keqing, and four princes came to pay their respects: Lord Dongpin, Lord Nan'an, Lord Xining and Lord Beijin."
+        "info": "南安郡王是一位王爷。《红楼梦》里后来写贾府为秦可卿大办丧事，来了四家王爷参加祭奠，他们是东平郡王、南安郡王、西宁郡王和北静郡王。——————Lord Nan'an was a prince. Later in Dream of the Red Chamber, the Jia family held a funeral for Qin Keqing, and four princes came to pay their respects: Lord Dongpin, Lord Nan'an, Lord Xining and Lord Beijin."
       },
       {
         "label": "冯渊——————Feng Yuan",
@@ -1726,7 +1731,7 @@
         "image": "./images/photo/癞头和尚.jpg",
         "id": 3968,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "癞头和尚虽然其貌不扬，但却是小说中实在在的“神仙”，更是被曹雪芹寓以了既能令人富贵、又能一朝回贫的深刻含义。——————Scabby Monk have a small but important role to play. They are the real immortals in the novel, and the author implies that they can both make people rich and return to poverty once again."
       },
@@ -1736,7 +1741,7 @@
         "image": "./images/photo/跛足道人.jpg",
         "id": 3969,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "跛足道人，他看到了一个欲望无穷、沽名钓誉、巧取豪夺的泥浊世界————crippled Taoist, he saw a muddy world of endless desire, fame and ingenuity."
       },
@@ -1763,7 +1768,7 @@
         "value": 2,
         "id": 3972,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "神瑛侍者为贾宝玉的前身，他对三生石畔的绛珠仙草曾有灌溉之恩。贾宝玉身上的通灵宝玉是由顽石变化而成的。后在”绛珠“”泪尽夭折“后，经历了与宝钗”恩爱夫妻不到冬“、贾府的”忽喇喇似大厦倾“、女儿们的：“三春去后诸芳尽”等等人间不适后，心灰意冷地“悬崖散手”，与“绛珠”“证了前缘”。——————Divine Luminescent Stone-in-Waiting is Jia Baoyu’s previous life. He once had irrigation for the Crimson Pearl Flower beside the Stone of Three Incarnations. The Nuwa on Jia Baoyu's body was transformed from the rest of the stone to fill the sky."
       },
@@ -1773,7 +1778,7 @@
         "image": "./images/photo/林黛玉.jpg",
         "id": 4037,
         "categories": [
-          "person"
+          "Jinling"
         ],
         "info": "金陵十二钗之冠。林如海与贾敏之女，宝玉的姑表妹，寄居荣国府 。她生性孤傲，多愁善感，才思敏捷。她与宝玉真心相爱，是宝玉反抗封建礼教的同盟，是自由恋爱的坚定追求者。——————The most important woman among the Twelve Maidens of Chin Ling. The daughter of Lin Ruhai and Jia Min, the cousin of Jia Baoyu, lives in Mansion in Rongguo. She is aloof, sentimental, and quick-thinking. She and Baoyu truly love each other, Baoyu’s companion against feudal ethics, and a firm pursuer of free love."
       },
@@ -1783,7 +1788,7 @@
         "image": "./images/photo/薛宝钗.jpg",
         "id": 4038,
         "categories": [
-          "person"
+          "Jinling"
         ],
         "info": "金陵十二钗之二，来自四大家族之薛家，薛姨妈之女。她大方典雅，举止雍容。她对官场黑暗深恶痛绝，但仍规谏宝玉读书做官。有一个金锁，与贾宝玉的通灵宝玉被外人称为金玉良缘。——————The second of The Twelve Maidens of Chin Ling, she is from the Xue family, the daughter of Aunt Xue. She is generous, elegant and graceful. She abhorred the darkness of officialdom, but still admonished Baoyu to study and become an official. She has a golden lock and a jadeite with Jia Baoyu that is known as the ‘Golden Jade’."
       },
@@ -1793,7 +1798,7 @@
         "image": "./images/photo/贾巧姐.jpg",
         "id": 4039,
         "categories": [
-          "person"
+          "Jinling"
         ],
         "info": "金陵十二钗之十，贾琏与王熙凤的女儿。因生在七月初七，刘姥姥给她取名为“巧姐”。在贾府败落后，王仁和贾环要把她卖与藩王作使女。在紧急关头，幸亏刘姥姥相救，把她带去乡下。——————The tenth of The Twelve Maidens of Chin Ling, the daughter of Jia Lian and Wang Xifeng. She was born on the seventh day of the seventh month of the lunar calendar and was named Qiao Jie (Qiao Jie). When the Jia residence fell apart, Wang Ren and Jia Huan tried to sell her to the king as a maid. Fortunately, Granny Liu rescued her and took her to the countryside."
       },
@@ -1803,7 +1808,7 @@
         "image": "./images/photo/贾惜春.jpg",
         "id": 4040,
         "categories": [
-          "person"
+          "Jinling"
         ],
         "info": "金陵十二钗之八，宁国府贾珍的妹妹，贾府四小姐，爱好绘画。因father贾敬一味好道炼丹，mother又早逝，她一直在荣国府贾母身边长大。由于没有父母疼爱，养成了孤僻冷漠的性格，抄检大观园时，她狠心撵走丫环入画。四大家族的没落，三个sister的结局，使她产生了弃世的念头，看破红尘出家为尼。——————The eighth of The Twelve Maidens of Chin Ling, the younger sister of Jia Zhen of the Mansion of Ningguo, the fourth daughter of the Jia family, is a lover of painting. She grew up in the Mansion of Rongguo because her father, Jia Jing, was an alchemist, and her mother died young. With no parents to love her, she was raised to be an eccentric and cold character. The fall of her four big families and the end of her three sisters made her become a nun."
       },
@@ -1813,7 +1818,7 @@
         "image": "./images/photo/王熙凤.jpg",
         "id": 4041,
         "categories": [
-          "person"
+          "Jinling"
         ],
         "info": "金陵十二钗之九，来自四大家族之王家，王夫人的内侄女，贾琏之妻。她精明强干，深得贾母和王夫人的信任，成为荣国府的管家奶奶，她为人处事圆滑周到，图财害命的事也干过不少，她支持宝黛爱情。——————The Twelve Maidens of Chin Ling is a niece of Madame Wang and the wife of Jia Lian, a member of the Wang family. She is the wife of Jia Lian. She is a smart and capable woman who has won the trust of both Lady Wang and Grandma Jia, and has become the manager of the Mansion.She supports Baoyu and Daiyu's love for each other."
       },
@@ -1823,7 +1828,7 @@
         "image": "./images/photo/贾迎春.jpg",
         "id": 4042,
         "categories": [
-          "person"
+          "Jinling"
         ],
         "info": "金陵十二钗之七，是贾赦与妾所生，贾府二小姐。她老实无能，懦弱怕事，有“二木头”的诨名。她不但作诗猜谜不如姐妹们，在处世为人上，也只知退让，任人欺侮。贾赦欠了孙家五千两银子还不出，就把她嫁给孙家，原著前80回未交代结局，根据金陵十二钗判词，最后被husband孙绍祖虐待致死。——————The Twelve Maidens of Chin Ling is the seventh child of Jia Pao and his concubine, the second youngest daughter of the Jia family. She is an honest, incompetent, cowardly and fearful woman. She is not only inferior to her sisters in poetry and riddles, but she is also willing to give in and let others bully her. Jia Pao, who owes Sun's family 5,000 taels of silver, marries her off to Sun's family and is eventually maltreated to death by her husband, Sun Shaozu."
       },
@@ -1833,7 +1838,7 @@
         "image": "./images/photo/李纨.jpg",
         "id": 4043,
         "categories": [
-          "person"
+          "Jinling"
         ],
         "info": "金陵十二钗之十一，贾珠遗孀，生子贾兰。李纨虽处于膏粱锦绣之中，竟如“槁木死灰”一般，一概不闻不问，只知道抚养亲子，闲时陪侍小姑等女红、诵读而已  。她是个恪守封建礼法的节妇的典型。——————The Twelve Maidens of Chin Ling is the eleventh, widow of Jia Zhu, who gave birth to Jia Lan. She only knew how to raise her own children and spent her free time with her aunt doing needlework and reading. She was a typical example of a temperate woman who adhered to feudal rituals."
       },
@@ -1843,7 +1848,7 @@
         "image": "./images/photo/贾元春.jpg",
         "id": 4044,
         "categories": [
-          "person"
+          "Jinling"
         ],
         "info": "金陵十二钗之三，贾政与王夫人之长女，贾府大小姐。因贤孝才德，选入宫作女史。秦可卿出殡不久，元春晋封贵妃  。贾府为了迎接她省亲，建造了大观园。她给家族带来了“烈火烹油，鲜花著锦之盛”，但自己幽闭深宫，不能尽天伦之乐。——————The Twelve Maidens of Chin Ling was the third, the eldest daughter of Jia Zheng and Madame Wang, the eldest daughter of the Jia family. Because of her virtuousness and filial piety, she was chosen to be a female historian of the palace. Soon after Qin Keqing's funeral, she was promoted to the title of noble consort in Yuanchun. In order to welcome her home, the Jia Mansion built the Grand View Garden. She brought prosperity to the family, but she was secluded in the palace, unable to enjoy her family life."
       },
@@ -1853,7 +1858,7 @@
         "image": "./images/photo/贾探春.jpg",
         "id": 4045,
         "categories": [
-          "person"
+          "Jinling"
         ],
         "info": "金陵十二钗之四，贾政与赵姨娘所生，贾府三小姐。她精明能干，个性刚烈，有“玫瑰花”之诨名。抄检大观园时，她当众扇了王善保家的一巴掌。她对贾府的危局颇有感触，用兴利除弊的改革来挽救。改革虽成功，但无济大事。——————The Twelve Maidens of Chin Ling is the fourth, born to Jia Zheng and Miss Zhao, the third daughter of the Jia family. The Twelve Maidens of Chin Ling, the third daughter of the Jia family, was born to Jia Zheng and Aunt Zhao, and was known as ‘The Rose’. During the raid on the Grand View Garden, she slapped Wang Shanbao's family in public. She was impressed by the dire situation of the Jia family, and saved them by introducing reforms to remove the disadvantages. Although the reforms were successful, they could not save the Jia family in the end."
       },
@@ -1863,7 +1868,7 @@
         "image": "./images/photo/邢夫人.jpg",
         "id": 4046,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "贾赦之wife，无儿无女，地位尴尬，比不上妯娌王夫人。她禀性愚犟，只知奉承贾赦，家中小老婆一堆 ，一应大小事务，俱由贾赦摆布。出入银钱，一经她手，便克扣异常，婪取财货。儿女奴仆，一人不靠，一言不听，故甚不得人心。——————Jia Pao's wife, with no children, is in an awkward position, not as good as his sister-in-law, Mrs. Wang. She is stubborn and only knows how to flatter Jia Pao, and her concubines are all arranged by Jia Pao. The woman is not popular in the family."
       },
@@ -1873,7 +1878,7 @@
         "image": "./images/photo/赵姨娘.jpg",
         "id": 4047,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "赵姨娘是荣国府二老爷贾政之妾，环三爷贾环和三姑娘贾探春之生母。赵姨娘成了贾政的妾，这是她幸运的一步，却也是不幸的开始。——————Aunt Zhao was the concubine of Jia Zheng, the second son of the Rongguo family, and the biological mother of Jia Huan and Jia Tanchun. The fact that Zhao became the concubine of Jia Zheng was a lucky step for her, but also the beginning of misfortune."
       },
@@ -1892,7 +1897,7 @@
         "image": "./images/photo/贾母.jpg",
         "id": 4049,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "来自四大家族之史家，贾府老太太，宝玉祖母 。在贾家从重孙媳妇做起，一直到有了重孙媳妇。她凭着自己的精明能干，才坐稳了贾家大家长的位置。——————From the Shi family of four great families, the old lady of the Jia family and grandmother of Jia Baoyu . She started in the Jia family as a great-grand-daughter-in-law until she had a great-grand-daughter-in-law. With her shrewdness and ability, she was able to secure the position of the head of the Jia family"
       },
@@ -1902,7 +1907,7 @@
         "image": "./images/photo/妙玉.jpg",
         "id": 4050,
         "categories": [
-          "person"
+          "Jinling"
         ],
         "info": "金陵十二钗之六，苏州人氏。祖上是读书仕宦人家，因自幼多病，买了许多替身皆不中用，只得入了空门，带发修行。父母亡故后，她随师父进京。师父圆寂后，王夫人赏识她的佛学修为，请她入住大观园栊翠庵，原著前80回未交代结局。——————The Sixth of The Twelve Maidens of Chin Ling, a native of SooChow. Her ancestors were educated and worked as government officials, but due to illness at an early age, she had to take her hair to the temple. After the death of her parents, she went to Beijing with her master. After her master's death, Madame Wang appreciated her Buddhist training and invited her to stay at the Green Lattice Nunnery."
       },
@@ -1912,7 +1917,7 @@
         "image": "./images/photo/王夫人.jpg",
         "id": 4051,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "王夫人是故事主角贾宝玉和十二钗之一的皇妃贾元春之母，贾政之妻，是荣国府掌权管事的家长之一。她性格沉闷守旧，贾母形容她老实，又多病多痛。——————Lady Wang is the mother of the main character Jia Baoyu and the imperial consort Jia Yuanchun, the wife of Jia Zheng, one of the heads of the Rongguo residence. She is dull and old-fashioned, and is described by Grandma Jia as honest, sickly, and painful."
       },
@@ -1922,7 +1927,7 @@
         "image": "./images/photo/史湘云.jpg",
         "id": 4052,
         "categories": [
-          "person"
+          "Jinling"
         ],
         "info": "金陵十二钗之五，来自四大家族之史家，是贾母的侄孙女。自幼父母双亡，在家一点儿也作不得主，不时还要三更半夜做针线活儿。她心直口快，开朗豪爽，心怀坦荡，从未把儿女私情略萦心上。——————Fifth of The Twelve Maidens of Chin Ling is a niece of Grandma Jia's nephew and granddaughter from a family of four great families. She is the niece of Jia's mother. Her parents died when she was young, so she is not in charge of her own family and has to do needlework in the middle of the night from time to time. She is quick-witted, cheerful, and open-minded."
       },
@@ -1932,7 +1937,7 @@
         "image": "./images/photo/秦可卿.jpg",
         "id": 4053,
         "categories": [
-          "person"
+          "Jinling"
         ],
         "info": "金陵十二钗之十二，宁国府贾蓉之妻。她是营缮司郎中秦邦业从养生堂抱养的女儿，小名可儿，大名兼美。她长得袅娜纤巧，性格风流，行事又温柔和平，深得贾母等人的欢心  。但公公贾珍与她关系暧昧，致使其年轻早夭。——————Twelfth of The Twelve Maidens of Chin Ling , wife of the Ningguo mansion Jia Rong. She was the adopted daughter of Qin Ye, whose nickname was Ke er, and whose first name was also Jianmei. She was a slender, graceful, gentle and peaceful woman, who was very popular with Grandmother Jia and others. But her father-in-law, Jia Zhen, had an affair with her, which led to her early death."
       },
@@ -1941,7 +1946,7 @@
         "value": 9,
         "id": 4054,
         "categories": [
-          "person"
+          "youfuce"
         ],
         "info": "金陵十二钗又副册之首，贾宝玉房里的四个大丫鬟之一，虽是丫鬟，但在宝玉房里过得千金小姐的生活。她有林黛玉之风。一次王夫人进园子看见她打骂小丫鬟，觉得她不合世家教养，再加上王善保家的等小人进谗，王夫人在她病得“四五日水米不曾沾牙”的情况下，从炕上拉下来，硬给撵了出去。宝玉偷偷前去探望，晴雯深为感动。当夜，晴雯悲惨地死去。——————Belonging to Jinling, Twelve Beauties of; Supplementary Register No. 2, one of the four maids in Jia Baoyu's room, Jinling is a maid, but she lives the life of a thousand golden girls in Baoyu's room. She had the style of Lin Daiyu. The first one is the one that is the most important. That night, Skybright died a tragic death."
       },
@@ -1951,7 +1956,7 @@
         "image": "./images/photo/袭人.jpg",
         "id": 4055,
         "categories": [
-          "person"
+          "youfuce"
         ],
         "info": "袭人原名珍珠，花姓，金陵十二钗又副册第二位，宝玉房里四个大丫鬟之首。从小因家贫被父母卖入贾府为婢，原是跟着贾母，起先服侍史湘云几年，贾母见喜袭人心地纯良，恪尽职守，便命她服侍宝玉。她对人和气，处事稳重，工作认真，得到大观园中上下人等的夸奖，是出了名的贤女。——————Belonging to Jinling, Twelve Beauties of; Supplementary Register No. 2. She is the first of four maids in the Baoyu household. When she was young, her parents sold her into the Jia residence as a servant girl, and she served Shi Xiangyun for several years. She is known for her kindness, steadiness and conscientiousness, and is praised by everyone in the Grand View Garden."
       },
@@ -1961,7 +1966,7 @@
         "image": "./images/photo/平儿.jpg",
         "id": 4056,
         "categories": [
-          "person"
+          "fuce"
         ],
         "info": "王熙凤的陪嫁丫头，贾琏的通房大丫头。她是个极聪明、极清俊的女孩儿。虽是凤姐的心腹，要帮着凤姐料理事务，但她为人很好，心地善良，平儿从不弄权仗势欺人，本能地同情那些和她地位相仿或更低的奴隶们，常背着王熙凤做些好事。——————The bride of Wang Xifeng, Jia Lian's common slave, is an extremely intelligent and handsome girl. She is an extremely intelligent and handsome girl. Patience is a good and kind-hearted girl, and she has no intention of bullying anyone, but she instinctively sympathizes with the slaves who are similar to her and often does good deeds behind Wang Xifeng's back"
       },
@@ -1971,7 +1976,7 @@
         "image": "./images/photo/鸳鸯.jpg",
         "id": 4057,
         "categories": [
-          "person"
+          "youfuce"
         ],
         "info": "随父姓金，是贾母的大丫头，甚受信任，因为这个缘故，她在贾府的丫头中有很高的地位。贾母平日倚之若左右手。贾母玩牌，她坐在旁边出主意；贾母摆宴，她入座充当令官。她自重自爱，从不以此自傲，仗势欺人，因此深得上下各色人等的好感和尊重。——————Grandma Jia is the eldest daughter of her father, Jinling, and is the most trusted of all the maids in the Jia family. She is the eldest maid in the Jia family and is very trusted by all the people in the family."
       },
@@ -1981,7 +1986,7 @@
         "image": "./images/photo/紫鹃.jpg",
         "id": 4058,
         "categories": [
-          "person"
+          "youfuce"
         ],
         "info": "贾母房里的二等小丫头。贾母见林黛玉来时只带了两个人，恐不中使，便把鹦哥给了黛玉，改名为紫鹃。她聪明灵慧，和黛玉关系很好，情同姐妹，一时一刻不离开，是黛玉的“闺中贵友”，一心一意为黛玉着想，见黛玉是个孤儿，又和宝玉相爱，就劝黛玉趁老太太还硬朗的时候作定大事要紧。为此，她想出林家要接黛玉回苏州的话来试宝玉，使宝玉痴病大发。黛玉死后，随黛玉灵柩回苏州，为黛玉守灵。——————Nightingale is the little girl in Lady Jia's room, and when she sees that Lin Daiyu has come with only two people, she gives her to Lin Daiyu. She is very smart, she is very close to Daiyu, and she is devoted to Daiyu. She sees that Daiyu is an orphan and is in love with Baoyu, so she advises Daiyu to make important decisions while Lady Jia is still healthy. After Daiyu's death, she returns to SooChow with Daiyu's coffin."
       },
@@ -1991,7 +1996,7 @@
         "image": "./images/photo/莺儿.jpg",
         "id": 4059,
         "categories": [
-          "person"
+          "youfuce"
         ],
         "info": "薛宝钗的丫头，她甚是乖巧。——————Xue Baochai's servant girl, she was very well-behaved."
       },
@@ -2001,7 +2006,7 @@
         "image": "./images/photo/玉钏.jpg",
         "id": 4060,
         "categories": [
-          "person"
+          "youfuce"
         ],
         "info": "金钏的妹妹，王夫人的丫头。金钏投井后，王夫人便把金钏的月钱给了玉钏。金钏周年，玉钏独坐廊下垂泪，可见底层人民的骨肉之情。——————Golden's sister, the slave of the Lady Wang, who gives Golden's monthly money to Silver after his suicide, and Silver's tears on Golden's anniversary show the bond between them."
       },
@@ -2011,7 +2016,7 @@
         "image": "./images/photo/金钏.jpg",
         "id": 4061,
         "categories": [
-          "person"
+          "youfuce"
         ],
         "info": "王夫人房中的丫鬟。本姓白。有一个妹妹，叫做“玉钏”，同是王夫人房中丫头。后跳井自杀。金钏给人以不谙世事，天真烂漫的印象。投井自杀的结局也就更点明其人刚烈、其质清洁。——————She was a maid in Lady Wang's chamber. There is a sister, named Silver, who is also a servant girl in Mrs. Wang's room. Golden gives people the impression that she is unworldly and naive, and then she commits suicide by jumping into a well. The ending of his suicide by jumping into the well further indicates that he was strong and fierce."
       },
@@ -2031,7 +2036,7 @@
         "image": "./images/photo/司棋.jpg",
         "id": 4063,
         "categories": [
-          "person"
+          "youfuce"
         ],
         "info": "贾迎春的丫头。脾气刚烈，雷厉风行。与潘又安adultery，被撵出大观园。最终与潘又安双双殉情而死。与其主子迎春“二木头”的性格形成了很大的反差。——————Jia Yingchun's servant girl, with a fierce temper, was expelled from the Grand View Garden. She had an affair with Pan You'an and was expelled from the Grand View Garden. She died in love with Pan again, unlike Jia Yingchun's dull personality."
       },
@@ -2041,7 +2046,7 @@
         "image": "./images/photo/芳官.jpg",
         "id": 4064,
         "categories": [
-          "person"
+          "guan"
         ],
         "info": "贾府买来的戏班成员，正旦。戏班解散后成了贾宝玉的丫环，后来由于旁人诬陷，王夫人把她撵了出去，让她godmother在府外给她找个女婿，她不甘心再被godmother买卖就出家去了。——————A member of the opera troupe bought by the Jia family, Jinling.After the troupe was disbanded, she became Jia Baoyu's maid. Later, because of a false accusation, Madame Wang threw her out of the house and asked her godmother to find her a son-in-law outside the house.She didn't want to be traded by her godmother anymore, so she became a nun."
       },
@@ -2051,7 +2056,7 @@
         "image": "./images/photo/麝月.jpg",
         "id": 4065,
         "categories": [
-          "person"
+          "youfuce"
         ],
         "info": "怡红院里的四大丫鬟之一，她在书中的出场并不多，但是一个不可缺少的角色，因为她是唯一一个见证了贾府的走向衰败的全程、目睹了女儿的薄命的命运。——————one of Jia Baoyu's four maids, does not make many appearances in the book, but she is an indispensable character, as she is the only one who witnesses the decline of the Jia family and the fate of the women."
       },
@@ -2061,7 +2066,7 @@
         "image": "./images/photo/香菱.jpg",
         "id": 4066,
         "categories": [
-          "person"
+          "fuce"
         ],
         "info": "本名甄英莲，homeland姑苏，甄士隐独女，眉心有米粒大小的一点胭脂胎记。养大后原是卖给金陵公子冯渊，中途却被薛蟠抢回去做小妾，宝钗给她起名叫香菱。—————— Caltrop, originally from SooChow, is the only daughter of Zhen Shiyin, who has a birthmark the size of a grain of rice on her brow. She was abducted and sold to Feng Yuan, a gentleman from Jinling, when she was young, but halfway through, she was snatched by Xue Pan to become his concubine."
       },
@@ -2080,7 +2085,7 @@
         "image": "./images/photo/宝蟾.jpg",
         "id": 4068,
         "categories": [
-          "person"
+          "fuce"
         ],
         "info": "宝蟾是夏金桂的The maidservant accompanying the bride丫头。长有三分姿色，举止轻浮。——————Moonbeam is Xia Jingui's chambermaid. She has a good appearance, but her manners are frivolous."
       },
@@ -2089,7 +2094,7 @@
         "value": 2,
         "id": 4069,
         "categories": [
-          "person"
+          "youfuce"
         ],
         "info": "雪雁是林黛玉从苏州家里带来的小丫头，为林黛玉的贴身丫头之一。 雪雁年龄虽小，却是个聪慧之人。虽无害人之心，却有防人之意。——————She is the little maid brought by Lin Daiyu from SooChow's house. Although Snowgoose was young, she was a smart person. Although harmless, but defensive"
       },
@@ -2130,7 +2135,7 @@
         "info": "贾母身边的大丫鬟，照顾贾母起居生活，也负责传话、取物等各色杂事。——————A maid by the side of Grandma Jia's wife, she takes care of Jia's mother's daily life and is also responsible for delivering messages and collecting things."
       },
       {
-        "label": "翠墨——————Cuimo",
+        "label": "翠墨——————Ebony",
         "value": 1,
         "id": 4074,
         "categories": [
@@ -2144,7 +2149,7 @@
         "image": "./images/photo/薛姨妈.jpg",
         "id": 4075,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "薛蟠和薛宝钗之母，王夫人之妹。她以“慈”著称，由于举止言行得体，贾母常愿与她对坐聊天。她十分溺爱自己的子女，尤其怜惜薛蟠独根孤种，未免溺爱纵容，遂至老大无成，任薛蟠在外为所欲为。——————She was the mother of Xue Ban and Xue Bao Nobile, and the sister of Madam Wang. After the death of her husband, she lived in the Pear Fragrance Garden of the Jia Mansion with her two children. She was known for her kindness, and because of her proper manners and behavior, Aunt Jia was often willing to sit and chat with her. She doted on her children, especially on Xue Ban, who was a lonely and isolated child, and was so indulgent and pampered that the eldest child failed and was allowed to do whatever he wanted."
       },
@@ -2154,9 +2159,9 @@
         "image": "./images/photo/夏金桂.jpg",
         "id": 4076,
         "categories": [
-          "person"
+          "zhuyao"
         ],
-        "info": "薛蟠的wife。她被寡母纵容教养长大，她爱自己尊若菩萨，窥他人秽如粪土，外具花柳之姿，内秉风雷之性，嫁到薛家，使得薛家上下吃尽了苦头。夏金桂是个泼辣、善妒、狠毒的形象。——————She is the wife of Xue Ban, a widowed mother who raised her. She was brought up by her widowed mother, who treated others like dirt and was very sexy. She married into the Xue family and made them suffer a lot. Xia Jingui is a spicy, jealous and vicious character."
+        "info": "薛蟠的妻子。她被寡母纵容教养长大，她爱自己尊若菩萨，窥他人秽如粪土，外具花柳之姿，内秉风雷之性，嫁到薛家，使得薛家上下吃尽了苦头。夏金桂是个泼辣、善妒、狠毒的形象。——————She is the wife of Xue Ban, a widowed mother who raised her. She was brought up by her widowed mother, who treated others like dirt and was very sexy. She married into the Xue family and made them suffer a lot. Xia Jingui is a spicy, jealous and vicious character."
       },
       {
         "label": "薛宝琴——————Xue Baoqin",
@@ -2164,9 +2169,9 @@
         "image": "./images/photo/薛宝琴.jpg",
         "id": 4077,
         "categories": [
-          "person"
+          "fuce"
         ],
-        "info": "皇商之女，小时跟father跑过不少地方。她是薛姨妈的侄女，薛蝌的胞妹，薛蟠，薛宝钗的堂妹。她长得十分美貌，贾母甚是喜爱，夸她比画上的还好看，曾欲把她说给贾宝玉为妻。王夫人也认她为干女儿。她自幼读书识字，本性聪敏，在大观园里曾作《怀古绝句十首》。后嫁都中梅翰林之子。她是一位近乎完美的人。她的美艳与纯真和邢岫烟的内敛与清高、李纹、李绮的超脱与淡然截然不同，十分耀眼。主要成就为作怀古诗10首。本性聪敏，才华横溢，性格开朗热情、活泼爱动。——————The daughter of an imperial merchant, she traveled extensively with her father when she was young. She is Aunt Xue's niece and Xueke's sister-in-law. Xue Pan and Xue Bao Nobile's cousin. She was so beautiful that Auntie Jia was so fond of her that she praised her for being more beautiful than the picture on the wall and once offered her to Jia Baoyu as his wife. Mrs. Wang also recognized her as her goddaughter. At an early age, she was very intelligent and literate by nature. She was a near-perfect person with a cheerful, enthusiastic, lively and active personality."
+        "info": "皇商之女，小时跟父亲跑过不少地方。她是薛姨妈的侄女，薛蝌的胞妹，薛蟠，薛宝钗的堂妹。她长得十分美貌，贾母甚是喜爱，夸她比画上的还好看，曾欲把她说给贾宝玉为妻。王夫人也认她为干女儿。她自幼读书识字，本性聪敏，在大观园里曾作《怀古绝句十首》。后嫁都中梅翰林之子。她是一位近乎完美的人。她的美艳与纯真和邢岫烟的内敛与清高、李纹、李绮的超脱与淡然截然不同，十分耀眼。主要成就为作怀古诗10首。本性聪敏，才华横溢，性格开朗热情、活泼爱动。——————The daughter of an imperial merchant, she traveled extensively with her father when she was young. She is Aunt Xue's niece and Xueke's sister-in-law. Xue Pan and Xue Bao Nobile's cousin. She was so beautiful that Auntie Jia was so fond of her that she praised her for being more beautiful than the picture on the wall and once offered her to Jia Baoyu as his wife. Mrs. Wang also recognized her as her goddaughter. At an early age, she was very intelligent and literate by nature. She was a near-perfect person with a cheerful, enthusiastic, lively and active personality."
       },
       {
         "label": "邢岫烟——————Xing Xiuyan",
@@ -2174,7 +2179,7 @@
         "image": "./images/photo/邢岫烟.jpg",
         "id": 4078,
         "categories": [
-          "person"
+          "fuce"
         ],
         "info": "邢岫烟是邢忠夫妇的女儿，邢夫人的侄女。她家道贫寒，一家人前来投奔邢夫人，就在大观园迎春的住处紫菱洲住下。邢夫人对邢岫烟并不真心疼爱，只不过为了脸面之情。邢夫人甚至要求邢岫烟把每月二两银子的月钱省下一两来给她自己的父母，使得邢岫烟只得典当衣服来维持她在大观园的开支。邢岫烟生得端雅稳重，知书达礼，被薛姨妈看中，央求贾母作媒说与薛蝌，后嫁给薛蝌。——————Xing Xiuyan is the daughter of Mr. and Mrs. Xing Zhong and the niece of Mrs. Xing. Her family was poor and came to live with Mrs. Xing in Purple Caltrop Isle. Mrs. Xing did not really love her. Lady Xing even asked her to save one of her two taels of silver to give to her parents, leaving her to pawn her clothes to make ends meet. As a result, she was forced to pawn her clothes to keep up with her expenses, but she was chosen by Auntie Xue, who married Xue Ke."
       },
@@ -2184,7 +2189,7 @@
         "image": "./images/photo/尤氏.jpg",
         "id": 4079,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "她是贾珍的继室。虽为宁国府当家奶奶，但并无实权，素日只是顺从贾珍。她没什么才干，也没口齿。——————She is Jia Zhen's stepfamily. She is the head of the Mansion of Ning Guo, but she has no real power and has always been obedient to Jia Zhen. She has no talent and no words."
       },
@@ -2194,7 +2199,7 @@
         "image": "./images/photo/尤二姐.jpg",
         "id": 4080,
         "categories": [
-          "person"
+          "fuce"
         ],
         "info": "贾琏的二房，是贾珍夫人尤氏的继母带来的女儿。尤二姐模样标致，温柔和顺。贾珍馋涎妻妹的美貌，对尤二姐无微不至，当他玩腻后，就把她让给了贾琏。贾琏因惧怕王熙凤的淫威，只得偷偷娶尤二姐为二房，并把她安置在荣国府外，但不久被王熙凤发现，在她的借刀杀人计谋下，尤二姐备受折磨，当胎儿被庸医打下后，她绝望地吞金自尽。——————Jia Lian's second wife. Jia Lian's second wife, You Er, is a beautiful, gentle and obedient woman. Jia Lian is so afraid of Wang Xifeng that he has no choice but to secretly marry You Erjie and place her outside the Rongguo Mansion, but she is soon discovered by Wang Xifeng.You Erjie,  You Erjie commits suicide after her unborn child is killed by a quack."
       },
@@ -2204,7 +2209,7 @@
         "image": "./images/photo/尤三姐.jpg",
         "id": 4081,
         "categories": [
-          "person"
+          "fuce"
         ],
         "info": "尤氏继母带来的女儿，尤二姐的妹妹，亦称作尤小妹。尤三姐模样儿风流标致，她又偏爱打扮得出色，自有一种万人不及的风情体态。贾珍、贾琏、贾蓉等好色之徒，对她颇为馋涎。但尤三姐不愿像sister那样遭人玩弄，她用泼辣作为武器，捍卫自己的清白。她看中柳湘莲后，就一心一意等他。但因柳湘莲认为宁国府多好色之徒（贾珍贾蓉之流），怀疑尤三姐也是个不干净之人，要索回定礼，刚烈的尤三姐在奉还定礼时自杀。尤三姐个性泼辣刚烈，不像sister尤二姐般任人摆布。——————You Sanjie is the daughter of You's stepmother and the younger sister of You Erjie. You's third sister is very beautiful. However, she does not want to be manipulated like her sister and uses her ruthlessness as a weapon to defend her innocence. When she fell in love with Liu Xianglian, she waited for him wholeheartedly. However, because Liu Xianglian thought that the Ningguo residence was full of lecherous men, she suspected that You San Sister was also an impure person and wanted to return the ransom."
       },
@@ -2214,7 +2219,7 @@
         "image": "./images/photo/刘姥姥.jpg",
         "id": 4082,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "刘姥姥是一位来自乡下贫农家庭的谙于世故的老婆婆，凤姐女儿巧姐的命运与她密切相关。她幽默风趣，精明强干，机智过人，她敢做敢为，有计有谋有办法，毫不顾虑拯救巧姐。——————Granny Liu is an old woman from a poor farming family in the countryside who is closely involved in the fate of Qiao Jie, Wang Xifeng's daughter. She is funny, clever and clever, and has the courage to do what is right and to save Qiao Jie."
       },
@@ -2242,7 +2247,7 @@
         "image": "./images/photo/小红.jpg",
         "id": 4085,
         "categories": [
-          "person"
+          "youfuce"
         ],
         "info": "小红在凤姐处得到重用。她俏丽恬静，口齿清楚，说话简短，又很齐全，不受封建礼教束缚，敢于追逐自己的幸福，自己的爱情，和贾芸通过手帕私定终身。——————Crimson is used under Wang Xifeng. She is pretty and quiet, articulate, short and complete, not bound by feudal rites, and dares to pursue her own happiness and love."
       },
@@ -2261,7 +2266,7 @@
         "image": "./images/photo/瑞珠.jpg",
         "id": 4087,
         "categories": [
-          "person"
+          "fuce"
         ],
         "info": "秦可卿的丫环。秦可卿生前与公公贾珍关系暧昧，服侍秦可卿的瑞珠应该有所觉察，因此受到贾珍的威胁。秦可卿死后，瑞珠触柱而亡。——————Qin Keqing's maidservant. Rui Zhu, who was serving Qin Keqing, is threatened by Jia Zhen, an eunuch with whom Qin Keqing had an affair. After Qin Keqing's death, Ruiju commits suicide by crashing into a pillar."
       },
@@ -2271,7 +2276,7 @@
         "image": "./images/photo/藕官.jpg",
         "id": 4088,
         "categories": [
-          "person"
+          "guan"
         ],
         "info": "藕官是贾家买来的十二个唱戏的优伶之一，小戏子。为人义气，当她的朋友芳官被赵姨娘侮辱时，藕官冒着随时被驱逐的危险和伙伴们一起将平时不可一世的姨娘打了个痛快。戏班解散后，她成了林黛玉的丫环。后来因不肯聘嫁他人而出家为尼，长伴青灯古佛。——————Nenuphar is one of the twelve opera singers purchased by the Jia family. Righteous, when her friend Parfumée is insulted by Aunt Zhao, Nenuphar risks expulsion at any moment by beating the aunt. After the troupe was disbanded, she became Lin Daiyu's maid. She later became a nun because she refused to marry someone else."
       },
@@ -2281,7 +2286,7 @@
         "image": "./images/photo/蕊官.jpg",
         "id": 4089,
         "categories": [
-          "person"
+          "guan"
         ],
         "info": "蕊官是梨香院女伶，后遁入空门。——————Etamine is one of the twelve singer-performers purchased by the Jia family. She later became a nun."
       },
@@ -2333,7 +2338,7 @@
         "info": "贾迎春的丫头，她伶牙俐齿、好胜争强。是一个一心护主的二等小丫鬟。最后，迎春被贾赦许嫁孙绍祖之时，绣橘是四个陪嫁丫鬟之一。绣橘性格泼辣，有义护义。——————Jia Yingchun's maid, she is quick-witted and competitive. She is a second-class servant girl who is devoted to protecting her master. Tangerine is one of the four maids who accompany Jia Yingchun when she is promised to Sun Shaozu by Jia pardons, and she is spirited and protective of her lord."
       },
       {
-        "label": "侍书——————Shishu",
+        "label": "侍书——————Scribe",
         "value": 2,
         "image": "./images/photo/侍书.jpg",
         "id": 4095,
@@ -2393,7 +2398,7 @@
         "value": 1,
         "id": 4101,
         "categories": [
-          "person"
+          "guan"
         ],
         "info": "贾府梨香院优伶，饰老旦。—————— Pear Fragrance Court's singer, as Old Dan."
       },
@@ -2430,7 +2435,7 @@
         "value": 1,
         "id": 4105,
         "categories": [
-          "person"
+          "guan"
         ],
         "info": "贾府买来的十二个唱戏的女孩子之一。后来成为湘云的丫鬟。——————One of the twelve opera girls bought by Jia Mansion. Later became Shi Xiangyun's maid"
       },
@@ -2440,7 +2445,7 @@
         "image": "./images/photo/宝珠.jpg",
         "id": 4106,
         "categories": [
-          "person"
+          "fuce"
         ],
         "info": "秦可卿的丫环。秦可卿死后，宝珠见秦氏没有孩子，愿为义女，请任摔丧驾灵之任，后在铁槛寺陪伴秦可卿之灵，执意不肯回宁国府。——————Qin Keqing's maid. After Qin Keqing's death, she volunteered to become her goddaughter to accompany Qin Keqing's spirit at Iron Threshold Temple, stubbornly refusing to return to Ningguo mansion."
       },
@@ -2485,16 +2490,16 @@
         "value": 1,
         "id": 4111,
         "categories": [
-          "person"
+          "guan"
         ],
-        "info": "贾府梨香院女伶，饰老外。戏班解散后，她做了探春的丫头。众女伶被逐出大观园后，她被godmother领出自行聘嫁。——————One of the twelve opera girls bought by Jia Mansion. After all the actresses were expelled from the Grand View Garden, she was led by her godmother to take a bride."
+        "info": "贾府梨香院女伶，饰老外。戏班解散后，她做了探春的丫头。众女伶被逐出大观园后，她被干娘领出自行聘嫁。——————One of the twelve opera girls bought by Jia Mansion. After all the actresses were expelled from the Grand View Garden, she was led by her godmother to take a bride."
       },
       {
         "label": "文官——————Elegante",
         "value": 1,
         "id": 4112,
         "categories": [
-          "person"
+          "guan"
         ],
         "info": "贾府中十二个唱戏的女子之一，饰小生。在“十二官”中是个领头的，她由于口齿伶俐，甚得贾母欢心，薛姨妈等人也赞为“好个灵透孩子”，戏班解散后，贾母便留下她自使。——————One of the twelve opera girls bought by Jia Mansion plays the role of Xiaosheng, a leading role in the Twelve Officials. After the troupe was disbanded, Grandma Jia left her as a servant girl because of her eloquence."
       },
@@ -2503,7 +2508,7 @@
         "value": 5,
         "id": 4113,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "彩霞是王夫人的大丫头，有时却又是赵姨娘身边的二等丫头。她非常能干，不仅要提醒王夫人大小家事，就连贾政在家出外去的一应大小家事，也得由她记着。她和贾环还合得来，不时规劝他安分些，何苦讨人嫌，但贾环并不领情。赵姨娘素日和彩霞好，巴不得彩霞能嫁给贾环，自己有个臂膀。赵姨娘求贾政说情，又要贾环去讨，贾环却认为不过是个丫头，丢开手便走了。后由王熙凤和贾琏作主，配给容貌丑陋、酗酒赌博的旺儿之子。——————She is Lady Wang's maid. She is very capable and has to keep track of not only Lady Wang's big and small family affairs, but also Jia Zheng's big and small family affairs when he goes out at home. She and Jia Huan get along well, and Auntie Zhao, who is close to Sunset, wants Sunset to marry Jia Huan, but Jia Huan thinks she is just a maid. However, Jia Huan does not want to marry Sunset because he thinks Sunset is just a maid. Sunset's marriage to Jia Huan was arranged by Wang Xifeng and Jia Lian, and Sunset was given to the son of Wang Er, an ugly, alcoholic and gambling addict."
       },
@@ -2522,7 +2527,7 @@
         "image": "./images/photo/秋桐.jpg",
         "id": 4115,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "原为贾赦的丫环。贾琏偷娶尤二姐后，出门为father贾赦办事，事情办的很出色，贾赦十分欢喜，夸他能干，把秋桐赏他为妾。秋桐自以为揣摩到了凤姐的心思，加上自己是贾赦所赐，无人敢冒犯她。王熙凤曾借把尤二姐迫害而死。——————After Jia Lian marries You Erjie, he goes out to work for his father, Jia She, and does a good job. Autumn, originally Jia She’s maid, was later given to Jia Lian to be a concubine by Jia She. Wang Xifeng used her to persecute You Er to death."
       },
@@ -2532,7 +2537,7 @@
         "image": "./images/photo/娇杏.jpg",
         "id": 4117,
         "categories": [
-          "person"
+          "fuce"
         ],
         "info": "娇杏是甄家的丫环——————Jiao Xing is a maid of the Zhen family"
       },
@@ -2541,7 +2546,7 @@
         "value": 1,
         "id": 4118,
         "categories": [
-          "person"
+          "guan"
         ],
         "info": "贾府买来的十二个唱戏的女孩之一，饰小旦。她在戏中与小生藕官常扮夫妻，二人相好异常，同性相恋。但不久她夭亡了，致使藕官伤心欲绝，哭得死去活来。——————One of the twelve opera girls bought by Jia Mansion plays the role of Little Dan. In this opera, she often plays the role of a couple with Nenuphar, who is in love with her. She died soon afterwards, leaving Nenuphar heartbroken."
       },
@@ -2550,9 +2555,9 @@
         "value": 5,
         "id": 4119,
         "categories": [
-          "person"
+          "zhuyao"
         ],
-        "info": "荣府女仆，王熙凤的The maidservant accompanying the bride。她仗着与husband一起专替凤姐出力办事，放账收债。故无所忌惮，她倚势为“酗酒赌博”，“容貌丑陋”的儿子强娶彩霞，逼得彩霞之母纵不愿意也只好忍气吞声同意了。她是奴仆中的一“霸”。——————The maid of the Rong residence belongs to Wang Xifeng. She works for Wang Xifeng and is a loan shark to collect debts. Sunset's mother is forced to marry Sunset for her gambling and ugly son, and is forced to swallow her pride."
+        "info": "荣府女仆，王熙凤的心腹。她仗着与丈夫一起专替凤姐出力办事，放账收债。故无所忌惮，她倚势为“酗酒赌博”，“容貌丑陋”的儿子强娶彩霞，逼得彩霞之母纵不愿意也只好忍气吞声同意了。她是奴仆中的一“霸”。——————The maid of the Rong residence belongs to Wang Xifeng. She works for Wang Xifeng and is a loan shark to collect debts. Sunset's mother is forced to marry Sunset for her gambling and ugly son, and is forced to swallow her pride."
       },
       {
         "label": "王嬷嬷——————Nanny Wang.",
@@ -2572,7 +2577,7 @@
         "categories": [
           "person"
         ],
-        "info": "贾宝玉的乳母。她是一个年老爱唠叨的人。儿子李贵是跟宝玉上学的slave。——————Jia Baoyu's nanny. She is a nagging person. Her son, Li Gui, is a servant who goes to school with Baoyu."
+        "info": "贾宝玉的乳母。她是一个年老爱唠叨的人。儿子李贵是跟宝玉上学的跟班。——————Jia Baoyu's nanny. She is a nagging person. Her son, Li Gui, is a servant who goes to school with Baoyu."
       },
       {
         "label": "多姑娘——————the Mattress",
@@ -2580,7 +2585,7 @@
         "image": "./images/photo/多姑娘.jpg",
         "id": 4122,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "多姑娘是晴雯的表嫂，在晴雯临死病重、宝玉前去探望之时看出来了她的善以及对真爱的一丝羡慕，因为在作者的笔下，“多姑娘儿”代表了女性对男权社会的一种反抗，寄托了作者对女性解放的希望。——————The Mattress is Skybright's cousin's sister-in-law, and when Skybright is deathly ill and Baoyu visits, she sees her goodness and a hint of envy for true love. She holds the author's hope for the liberation of women."
       },
@@ -2591,7 +2596,7 @@
         "categories": [
           "person"
         ],
-        "info": "赖大的wife。——————Lai Da's wife."
+        "info": "赖大的妻子。——————Lai Da's wife."
       },
       {
         "label": "吴兴登家的——————Wu Xingdeng's wife.",
@@ -2600,7 +2605,7 @@
         "categories": [
           "person"
         ],
-        "info": "王夫人房里的slave。——————The maid in Lady Wang's room."
+        "info": "王夫人房里的奴才。——————The maid in Lady Wang's room."
       },
       {
         "label": "王善保家的——————Wang Sunbao's wife.",
@@ -2610,7 +2615,7 @@
         "categories": [
           "person"
         ],
-        "info": "她是荣国府大房太太邢夫人的The maidservant accompanying the bride婆子，也是邢夫人的心腹。——————She is the maid of Lady Xing of Rongguo Manison, and Lady Xing's henchman."
+        "info": "她是荣国府大房太太邢夫人的陪房婆子，也是邢夫人的心腹。——————She is the maid of Lady Xing of Rongguo Manison, and Lady Xing's henchman."
       },
       {
         "label": "柳嫂子——————Mrs. Liu",
@@ -2626,7 +2631,7 @@
         "value": 3,
         "id": 4127,
         "categories": [
-          "person"
+          "fuce"
         ],
         "info": "李婶娘之女，李纨堂妹。——————Daughter of Aunt Li, cousin of Li Wan."
       },
@@ -2635,7 +2640,7 @@
         "value": 3,
         "id": 4128,
         "categories": [
-          "person"
+          "fuce"
         ],
         "info": "李纹的妹妹，李纨的堂妹。——————Daughter of Aunt Li, cousin of Li Wan."
       },
@@ -2663,9 +2668,9 @@
         "image": "./images/photo/周瑞家的.jpg",
         "id": 4131,
         "categories": [
-          "person"
+          "zhuyao"
         ],
-        "info": "周瑞家的，是王夫人的The maidservant accompanying the bride，冷子兴的岳母。常在大观园及王夫人、琏二奶奶处做事露面。处事较为圆滑、见风使舵，是贾宝玉口中典型的“鱼眼睛”形象。 在荣国府里，周瑞家的管太太奶奶们出行的事。她的husband周瑞管宁国府地租庄子银钱的出入。——————She is Mrs. Wang's maid and Leng Zixing's mother-in-law, and is often seen in the Grand View Garden and with Mrs. Wang and Grandma Lian. She is more tactful and sees the light. In the Rongguo Masion, Zhou Rui's wife was in charge of the wives' and grandmothers' travels. Her husband, Zhou Rui, was in charge of Ningguo Masion's land rent money."
+        "info": "周瑞家的，是王夫人的陪房，冷子兴的岳母。常在大观园及王夫人、琏二奶奶处做事露面。处事较为圆滑、见风使舵，是贾宝玉口中典型的“鱼眼睛”形象。 在荣国府里，周瑞家的管太太奶奶们出行的事。她的husband周瑞管宁国府地租庄子银钱的出入。——————She is Mrs. Wang's maid and Leng Zixing's mother-in-law, and is often seen in the Grand View Garden and with Mrs. Wang and Grandma Lian. She is more tactful and sees the light. In the Rongguo Masion, Zhou Rui's wife was in charge of the wives' and grandmothers' travels. Her husband, Zhou Rui, was in charge of Ningguo Masion's land rent money."
       },
       {
         "label": "林之孝家的——————Lin Zhixiao‘s Wife",
@@ -2683,7 +2688,7 @@
         "image": "./images/photo/柳五儿.jpg",
         "id": 4133,
         "categories": [
-          "person"
+          "youfuce"
         ],
         "info": "柳嫂子之女，十六岁，她虽是厨役之女，幸亏平儿相助，她们母女的冤情得以洗清。——————Mrs. Liu's daughter, aged sixteen, is the daughter of a cook, but she is very pretty. Thanks to Patience's help, the mother and daughter are cleared of all wrongdoing."
       },
@@ -2739,7 +2744,7 @@
         "image": "./images/photo/龄官.jpg",
         "id": 4140,
         "categories": [
-          "person"
+          "guan"
         ],
         "info": "贾家买来的十二个唱戏的女孩之一。长相、气质很像林黛玉，她与贾蔷的爱情也给了宝玉不一样的启发。——————One of the twelve opera singing girls bought by the Jia family. Looking and acting like Lin Daiyu, her love for Jia Qiang also inspires Baoyu in a different way."
       },
@@ -2804,7 +2809,7 @@
         "value": 2,
         "id": 4147,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "秦钟之相好——————Qin Zhongzhi's lover"
       },
@@ -2862,14 +2867,14 @@
         "categories": [
           "person"
         ],
-        "info": "史湘云之wet nurse——————Shi Xiongyun's Nana"
+        "info": "史湘云之奶娘——————Shi Xiongyun's Nana"
       },
       {
         "label": "豆官——————Cardamome",
         "value": 1,
         "id": 4154,
         "categories": [
-          "person"
+          "guan"
         ],
         "info": "贾家买来唱戏的女优伶。戏班解散后，随侍薛宝琴。——————A female opera singer bought by the Jia family. After the troupe is disbanded, she accompanies Xue Baoqin."
       },
@@ -2982,7 +2987,7 @@
         "value": 2,
         "id": 4167,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "太虚幻境司主，相当于西方的维纳斯、丘比特。她首次提出“意淫”的概念。——————The owner of the Land of Illusion is the Western equivalent of Venus and Cupid. She first introduced the concept of masturbation."
       },
@@ -2992,7 +2997,7 @@
         "image": "./images/photo/马道婆.jpg",
         "id": 4168,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "贾宝玉寄名的godmother，是个搞封建迷信，邪魔歪道的混帐东西，经常出入贾府各房各屋。——————Jia Baoyu's foster-name godmother is a feudal, superstitious, evil and devious villain who frequents the Jia residence."
       },
@@ -3002,7 +3007,7 @@
         "image": "./images/photo/南安太妃.jpg",
         "id": 4169,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "她决定了贾府三小姐探春的命运——————She decided Jia Tanchun's fate."
       },
@@ -3034,11 +3039,31 @@
         "info": "周瑞之女——————Daughter of Zhou Rui"
       },
       {
+        "label": "玉官——————Topaze ",
+        "value": 3,
+        "image": "./images/photo/玉官.jpg",
+        "id": 9999,
+        "categories": [
+          "guan"
+        ],
+        "info": "玉官是贾家买来的十二个唱戏的优伶之一。——————Topaze is one of the twelve opera singers purchased by the Jia family. "
+      },
+      {
+        "label": "宝官——————Trésor ",
+        "value": 3,
+        "image": "./images/photo/宝官.jpg",
+        "id": 9998,
+        "categories": [
+          "guan"
+        ],
+        "info": "宝官是贾家买来的十二个唱戏的优伶之一。——————Trésor is one of the twelve opera singers purchased by the Jia family. "
+      },
+      {
         "label": "绛珠仙子——————Vermilion Pearl Plant",
         "value": 2,
         "id": 4173,
         "categories": [
-          "person"
+          "zhuyao"
         ],
         "info": "传说中的美丽仙女，林黛玉的previous incarnation (Buddhism)，一心回报神瑛侍者的灌溉之恩。——————The legendary beautiful fairy, Lindsay's former life, is determined to return the favor of Divine Luminescent Stone-in-Waiting's irrigation."
       }

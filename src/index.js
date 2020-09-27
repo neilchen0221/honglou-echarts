@@ -1,6 +1,5 @@
 const echarts = require('echarts');
 const echarts2 = require('echarts');
-// const data = require('./data/honglou.json');
 const data = require('./data/honglou_english_version.json');
 const data2 = require('./data/honglou2.json');
 const imageBaseUrl = 'https://datarati-vma.s3-ap-southeast-2.amazonaws.com/Test+Images/';
@@ -11,8 +10,12 @@ if (document.getElementById('main')) {
 	/*************************************/
 	const myChart = echarts.init(document.getElementById('main'));
 	let graph = data;
-	const categories = [{ name: 'event' }, { name: 'person' }, { name: 'location' }];
+	const categories = Object.keys(graph.categories).map((key) => ({
+		name: key
+	}));
+	//[{ name: 'event' }, { name: 'person' }, { name: 'location' },{name:'Jinling'},{name:'zhuyao'},{name:'fuce'},{name:'youfuce'},{name:'guan'};
 
+	//Node data
 	graph.data.nodes.forEach(function (node) {
 		let name = node.label.split('—');
 		let chineseName = name[0];
@@ -45,6 +48,7 @@ if (document.getElementById('main')) {
 			}
 		};
 	});
+	//Link data
 	graph.data.edges.forEach(function (edge) {
 		edge.source = edge.from.toString();
 		edge.target = edge.to.toString();
@@ -72,7 +76,12 @@ if (document.getElementById('main')) {
 				return a.name;
 			}),
 			selected: {
-				person: true,
+				person: false,
+				Jinling: true,
+				zhuyao: true,
+				fuce: false,
+				youfuce: false,
+				guan: false,
 				event: false,
 				location: false
 			}
