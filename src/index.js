@@ -20,31 +20,36 @@ if (document.getElementById('main')) {
 		let name = node.label.split('—');
 		let chineseName = name[0];
 		let englishName = name[name.length - 1];
+		let info = node.info.split('—');
+		let chineseInfo = info[0];
+		let englishInfo = info[info.length - 1];
 		let imageUrl = `${imageBaseUrl}${encodeURIComponent(chineseName)}.jpg`;
 
 		let labelSize = 12;
 		if (node.value <= 5) {
 			labelSize = 8;
-		} else if (node.value > 5 && node.value <= 10) {
+		} else if (node.value > 5) {
 			labelSize = 12;
-		} else if (node.value > 10) {
-			labelSize = 16;
 		}
-
+		node.category = node.categories[0];
 		node.name = `${chineseName}|${englishName}`;
-		node.symbolSize = node.value * 2;
+		node.symbolSize = node.category === 'event' || node.category === 'location' ? 10 : node.value * 2;
 		// node.symbol = node.categories[0] === 'person' && node.image ? `image://${imageUrl}` : 'circle';
 		node.symbol = 'circle';
 		node.label = {
 			show: true,
 			fontSize: labelSize
 		};
-		node.category = node.categories[0];
+		node.itemStyle = {
+			borderWidth: 1.2,
+			borderColor: '#ffffff'
+		};
 		node.tooltip = {
+			show: true,
 			formatter: function () {
 				return `<div style="width:400px;white-space: initial;">${
 					node.image ? `<img src='${imageUrl}' width="100" style="float:left;margin-right:15px">` : ''
-				}<span style="font-weight:bold;font-size:16px;">${node.name}</span><br>${node.info}</div>`;
+				}<span style="font-weight:bold;font-size:16px;">${node.name}</span><br>${englishInfo}</div>`;
 			}
 		};
 	});
@@ -54,13 +59,10 @@ if (document.getElementById('main')) {
 		edge.target = edge.to.toString();
 		edge.relationship = edge.label;
 		edge.label = {
-			show: true,
 			formatter: function () {
 				return edge.relationship;
 			}
 		};
-		edge.symbol = ['none', 'arrow'];
-		edge.symbolSize = 10;
 	});
 
 	option = {
@@ -70,7 +72,7 @@ if (document.getElementById('main')) {
 			top: 'top',
 			left: 'left'
 		},
-		tooltip: {},
+		tooltip: { show: false, confine: true, triggerOn: 'click' },
 		legend: {
 			data: categories.map(function (a) {
 				return a.name;
@@ -91,7 +93,7 @@ if (document.getElementById('main')) {
 		series: [
 			{
 				zoom: 0.8,
-				name: 'Les Miserables',
+				name: 'honglou',
 				type: 'graph',
 				layout: 'circular',
 				circular: {
@@ -102,18 +104,47 @@ if (document.getElementById('main')) {
 				categories: categories,
 				roam: true,
 				focusNodeAdjacency: true,
-				label: {
-					position: 'right',
-					formatter: '{b}'
+				itemStyle: {
+					borderWidth: 1
+				},
+				edgeLabel: {
+					show: false,
+					fontSize: 14
 				},
 				lineStyle: {
 					color: 'source',
-					curveness: 0.3
+					width: 0,
+					opacity: 1,
+					curveness: 0.15
+				},
+				emphasis: {
+					edgeLabel: { show: true },
+					lineStyle: {
+						width: 2
+					},
+					label: {
+						fontSize: 16
+					}
 				}
 			}
 		]
 	};
 	myChart.setOption(option);
+	window.onresize = myChart.resize;
+
+	// myChart.on('click', { dataType: 'node' }, function (params) {
+	// 	myChart.dispatchAction({
+	// 		type: 'focusNodeAdjacency',
+	// 		seriesIndex: 0,
+	// 		dataIndex: params.dataIndex
+	// 	});
+	// });
+	// myChart.on('mouseout', { dataType: 'node' }, function (para) {
+	// 	myChart.setOption({ series: { edgeLabel: { show: false } } });
+	// });
+	// myChart.on('focusnodeadjacency', function () {
+	// 	myChart.setOption({ series: { edgeLabel: { show: true } } });
+	// });
 } else {
 	/**************************************/
 	/* Chart 2 */
