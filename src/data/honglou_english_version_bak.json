@@ -760,7 +760,7 @@
       {
         "label": "贾宝玉——————Jia Baoyu",
         "value": 52,
-        "image": "贾宝玉.png",
+        "image": "./images/photo/贾宝玉.jpg",
         "id": 3863,
         "categories": [
           "zhuyao"
@@ -797,7 +797,7 @@
       {
         "label": "贾敬——————Jia Jing",
         "value": 6,
-        "image": "贾敬.png",
+        "image": "./images/photo/贾敬.jpg",
         "id": 3867,
         "categories": [
           "person"
@@ -807,7 +807,7 @@
       {
         "label": "贾赦——————Jia she",
         "value": 15,
-        "image": "贾赦.png",
+        "image": "./images/photo/贾赦.jpg",
         "id": 3868,
         "categories": [
           "zhuyao"
@@ -817,7 +817,7 @@
       {
         "label": "贾政——————Jia Zheng",
         "value": 24,
-        "image": "贾政.png",
+        "image": "./images/photo/贾政.jpg",
         "id": 3869,
         "categories": [
           "zhuyao"
@@ -827,7 +827,7 @@
       {
         "label": "贾蓉——————Jia Rong",
         "value": 11,
-        "image": "贾蓉.png",
+        "image": "./images/photo/贾蓉.jpg",
         "id": 3870,
         "categories": [
           "zhuyao"
@@ -837,7 +837,7 @@
       {
         "label": "贾蔷——————Jia Qiang",
         "value": 7,
-        "image": "贾蔷.png",
+        "image": "./images/photo/贾蔷.jpg",
         "id": 3871,
         "categories": [
           "zhuyao"
@@ -847,7 +847,7 @@
       {
         "label": "贾兰————Jia Lan",
         "value": 4,
-        "image": "贾兰.png",
+        "image": "./images/photo/贾兰.jpg",
         "id": 3872,
         "categories": [
           "person"
@@ -857,7 +857,7 @@
       {
         "label": "贾珍——————Jia zhen",
         "value": 19,
-        "image": "贾珍.png",
+        "image": "./images/photo/贾珍.jpg",
         "id": 3873,
         "categories": [
           "zhuyao"
@@ -867,7 +867,7 @@
       {
         "label": "贾琏——————Jia Lian",
         "value": 25,
-        "image": "贾琏.png",
+        "image": "./images/photo/贾琏.jpg",
         "id": 3874,
         "categories": [
           "zhuyao"
@@ -895,7 +895,7 @@
       {
         "label": "贾环——————Jia Huan",
         "value": 10,
-        "image": "贾环.png",
+        "image": "./images/photo/贾环.jpg",
         "id": 3877,
         "categories": [
           "zhuyao"
@@ -932,7 +932,7 @@
       {
         "label": "秦钟——————Qin Zhong",
         "value": 10,
-        "image": "秦钟.png",
+        "image": "./images/photo/秦钟.jpg",
         "id": 3881,
         "categories": [
           "zhuyao"
@@ -969,7 +969,7 @@
       {
         "label": "薛蟠——————Xue Pan ",
         "value": 17,
-        "image": "薛蟠.png",
+        "image": "./images/photo/薛蟠.jpg",
         "id": 3885,
         "categories": [
           "zhuyao"
@@ -979,7 +979,7 @@
       {
         "label": "薛蝌——————Xue Ke",
         "value": 5,
-        "image": "薛蝌.png",
+        "image": "./images/photo/薛蝌.jpg",
         "id": 3886,
         "categories": [
           "zhuyao"
@@ -1016,7 +1016,7 @@
       {
         "label": "柳湘莲——————Liu Xianglian",
         "value": 8,
-        "image": "柳湘莲.png",
+        "image": "./images/photo/柳湘莲.jpg",
         "id": 3890,
         "categories": [
           "zhuyao"
@@ -1026,7 +1026,7 @@
       {
         "label": "贾雨村——————Jia Yucun",
         "value": 9,
-        "image": "贾雨村.png",
+        "image": "./images/photo/贾雨村.jpg",
         "id": 3891,
         "categories": [
           "zhuyao"
@@ -1036,7 +1036,7 @@
       {
         "label": "贾瑞————Jia Rui",
         "value": 4,
-        "image": "贾瑞.png",
+        "image": "./images/photo/贾瑞.jpg",
         "id": 3892,
         "categories": [
           "zhuyao"
@@ -1055,7 +1055,7 @@
       {
         "label": "贾芸——————Jia Yun",
         "value": 7,
-        "image": "贾芸.png",
+        "image": "./images/photo/贾芸.jpg",
         "id": 3894,
         "categories": [
           "zhuyao"
@@ -1065,7 +1065,7 @@
       {
         "label": "倪二——————Ni Er",
         "value": 2,
-        "image": "倪二.png",
+        "image": "./images/photo/倪二.jpg",
         "id": 3895,
         "categories": [
           "person"
@@ -1075,7 +1075,7 @@
       {
         "label": "林如海——————Lin Ruhai",
         "value": 5,
-        "image": "林如海.png",
+        "image": "./images/photo/林如海.jpg",
         "id": 3896,
         "categories": [
           "zhuyao"
@@ -1085,7 +1085,7 @@
       {
         "label": "焦大——————Jia Da",
         "value": 2,
-        "image": "焦大.png",
+        "image": "./images/photo/焦大.jpg",
         "id": 3897,
         "categories": [
           "zhuyao"
@@ -1140,7 +1140,7 @@
       {
         "label": "甄士隐——————Zhen Shiyin",
         "value": 8,
-        "image": "甄士隐.png",
+        "image": "./images/photo/甄士隐.jpg",
         "id": 3903,
         "categories": [
           "zhuyao"
@@ -1150,7 +1150,7 @@
       {
         "label": "邢忠——————Xing Zhong",
         "value": 2,
-        "image": "邢忠.png",
+        "image": "./images/photo/邢忠.jpg",
         "id": 3904,
         "categories": [
           "person"
@@ -1160,7 +1160,7 @@
       {
         "label": "板儿——————Ban Er",
         "value": 7,
-        "image": "板儿.png",
+        "image": "./images/photo/板儿.jpg",
         "id": 3905,
         "categories": [
           "zhuyao"
@@ -1170,7 +1170,7 @@
       {
         "label": "孙绍祖——————Sun Shaozu",
         "value": 5,
-        "image": "孙绍祖.png",
+        "image": "./images/photo/孙绍祖.jpg",
         "id": 3906,
         "categories": [
           "zhuyao"
@@ -1180,7 +1180,7 @@
       {
         "label": "李贵——————Li Gui",
         "value": 2,
-        "image": "李贵.png",
+        "image": "./images/photo/李贵.jpg",
         "id": 3907,
         "categories": [
           "zhuyao"
@@ -1208,7 +1208,7 @@
       {
         "label": "贾代儒——————Jia Dairu",
         "value": 14,
-        "image": "贾代儒.png",
+        "image": "./images/photo/贾代儒.jpg",
         "id": 3910,
         "categories": [
           "zhuyao"
@@ -1218,7 +1218,7 @@
       {
         "label": "赖大——————Lai Da",
         "value": 4,
-        "image": "赖大.png",
+        "image": "./images/photo/赖大.jpg",
         "id": 3911,
         "categories": [
           "person"
@@ -1246,7 +1246,7 @@
       {
         "label": "花自芳——————Hua Zifang",
         "value": 1,
-        "image": "花自芳.png",
+        "image": "./images/photo/花自芳.jpg",
         "id": 3914,
         "categories": [
           "person"
@@ -1283,7 +1283,7 @@
       {
         "label": "周瑞————Zhou Rui",
         "value": 4,
-        "image": "周瑞.png",
+        "image": "./images/photo/周瑞.jpg",
         "id": 3918,
         "categories": [
           "person"
@@ -1293,7 +1293,7 @@
       {
         "label": "林之孝——————Lin Zhixiao",
         "value": 3,
-        "image": "林之孝.png",
+        "image": "./images/photo/林之孝.jpg",
         "id": 3919,
         "categories": [
           "person"
@@ -1357,7 +1357,7 @@
       {
         "label": "茗烟——————Tealeaf ",
         "value": 5,
-        "image": "茗烟.png",
+        "image": "./images/photo/茗烟.jpg",
         "id": 3926,
         "categories": [
           "zhuyao"
@@ -1367,7 +1367,7 @@
       {
         "label": "潘又安——————Pan Youan",
         "value": 2,
-        "image": "潘又安.png",
+        "image": "./images/photo/潘又安.jpg",
         "id": 3927,
         "categories": [
           "zhuyao"
@@ -1377,7 +1377,7 @@
       {
         "label": "贾芹——————Jia Qin",
         "value": 2,
-        "image": "贾芹.png",
+        "image": "./images/photo/贾芹.jpg",
         "id": 3929,
         "categories": [
           "person"
@@ -1423,7 +1423,7 @@
       {
         "label": "赖尚荣——————Lai Shangrong",
         "value": 3,
-        "image": "赖尚荣.png",
+        "image": "./images/photo/赖尚荣.jpg",
         "id": 3934,
         "categories": [
           "person"
@@ -1478,7 +1478,7 @@
       {
         "label": "冷子兴——————Leng Zixing",
         "value": 5,
-        "image": "冷子兴.png",
+        "image": "./images/photo/冷子兴.jpg",
         "id": 3940,
         "categories": [
           "person"
@@ -1488,7 +1488,7 @@
       {
         "label": "卜世仁——————Pu Shiren",
         "value": 1,
-        "image": "卜世仁.png",
+        "image": "./images/photo/卜世仁.jpg",
         "id": 3941,
         "categories": [
           "person"
@@ -1498,7 +1498,7 @@
       {
         "label": "冯紫英——————Feng Ziyin",
         "value": 1,
-        "image": "冯紫英.png",
+        "image": "./images/photo/冯紫英.jpg",
         "id": 3942,
         "categories": [
           "person"
@@ -1526,7 +1526,7 @@
       {
         "label": "卫若兰——————Wei Ruolan",
         "value": 2,
-        "image": "卫若兰.png",
+        "image": "./images/photo/卫若兰.jpg",
         "id": 3945,
         "categories": [
           "person"
@@ -1554,7 +1554,7 @@
       {
         "label": "旺儿——————Wang ER",
         "value": 5,
-        "image": "旺儿.png",
+        "image": "./images/photo/旺儿.jpg",
         "id": 3948,
         "categories": [
           "person"
@@ -1582,7 +1582,6 @@
       {
         "label": "小沙弥——————little sandman",
         "value": 3,
-        "image": "门子.png",
         "id": 3951,
         "categories": [
           "zhuyao"
@@ -1610,7 +1609,7 @@
       {
         "label": "北静王——————King Bejing",
         "value": 3,
-        "image": "北静王.png",
+        "image": "./images/photo/北静王.jpg",
         "id": 3954,
         "categories": [
           "zhuyao"
@@ -1656,7 +1655,7 @@
       {
         "label": "乌进孝——————Wu Jingxiao",
         "value": 1,
-        "image": "乌进孝.png",
+        "image": "./images/photo/乌进孝.jpg",
         "id": 3959,
         "categories": [
           "person"
@@ -1729,7 +1728,7 @@
       {
         "label": "癞头和尚——————scabby monk",
         "value": 3,
-        "image": "癞头和尚.png",
+        "image": "./images/photo/癞头和尚.jpg",
         "id": 3968,
         "categories": [
           "zhuyao"
@@ -1739,7 +1738,7 @@
       {
         "label": "跛足道人——————crippled Taoist",
         "value": 4,
-        "image": "跛足道人.png",
+        "image": "./images/photo/跛足道人.jpg",
         "id": 3969,
         "categories": [
           "zhuyao"
@@ -1776,7 +1775,7 @@
       {
         "label": "林黛玉——————Lin DaYu",
         "value": 21,
-        "image": "林黛玉.png",
+        "image": "./images/photo/林黛玉.jpg",
         "id": 4037,
         "categories": [
           "Jinling"
@@ -1786,7 +1785,7 @@
       {
         "label": "薛宝钗——————Xue Baochai",
         "value": 17,
-        "image": "薛宝钗.png",
+        "image": "./images/photo/薛宝钗.jpg",
         "id": 4038,
         "categories": [
           "Jinling"
@@ -1796,7 +1795,7 @@
       {
         "label": "贾巧姐——————Jia Qiaojie",
         "value": 7,
-        "image": "贾巧姐.png",
+        "image": "./images/photo/贾巧姐.jpg",
         "id": 4039,
         "categories": [
           "Jinling"
@@ -1806,7 +1805,7 @@
       {
         "label": "贾惜春——————Jia Xichun",
         "value": 8,
-        "image": "贾惜春.png",
+        "image": "./images/photo/贾惜春.jpg",
         "id": 4040,
         "categories": [
           "Jinling"
@@ -1816,7 +1815,7 @@
       {
         "label": "王熙凤——————Wang Xifeng",
         "value": 25,
-        "image": "王熙凤.png",
+        "image": "./images/photo/王熙凤.jpg",
         "id": 4041,
         "categories": [
           "Jinling"
@@ -1826,7 +1825,7 @@
       {
         "label": "贾迎春——————Jia Yingchun",
         "value": 10,
-        "image": "贾迎春.png",
+        "image": "./images/photo/贾迎春.jpg",
         "id": 4042,
         "categories": [
           "Jinling"
@@ -1836,7 +1835,7 @@
       {
         "label": "李纨——————Li Wan",
         "value": 12,
-        "image": "李纨.png",
+        "image": "./images/photo/李纨.jpg",
         "id": 4043,
         "categories": [
           "Jinling"
@@ -1846,7 +1845,7 @@
       {
         "label": "贾元春——————Jia Yuanchun",
         "value": 9,
-        "image": "贾元春.png",
+        "image": "./images/photo/贾元春.jpg",
         "id": 4044,
         "categories": [
           "Jinling"
@@ -1856,7 +1855,7 @@
       {
         "label": "贾探春——————Jia Tanchun",
         "value": 14,
-        "image": "贾探春.png",
+        "image": "./images/photo/贾探春.jpg",
         "id": 4045,
         "categories": [
           "Jinling"
@@ -1866,7 +1865,7 @@
       {
         "label": "邢夫人——————Lady Xing",
         "value": 12,
-        "image": "邢夫人.png",
+        "image": "./images/photo/邢夫人.jpg",
         "id": 4046,
         "categories": [
           "zhuyao"
@@ -1876,7 +1875,7 @@
       {
         "label": "赵姨娘——————Mrs. Zhao",
         "value": 11,
-        "image": "赵姨娘.png",
+        "image": "./images/photo/赵姨娘.jpg",
         "id": 4047,
         "categories": [
           "zhuyao"
@@ -1895,7 +1894,7 @@
       {
         "label": "贾母————Grandma Jia",
         "value": 14,
-        "image": "贾母.png",
+        "image": "./images/photo/贾母.jpg",
         "id": 4049,
         "categories": [
           "zhuyao"
@@ -1905,7 +1904,7 @@
       {
         "label": "妙玉——————Adamantina",
         "value": 3,
-        "image": "妙玉.png",
+        "image": "./images/photo/妙玉.jpg",
         "id": 4050,
         "categories": [
           "Jinling"
@@ -1915,7 +1914,7 @@
       {
         "label": "王夫人——————Lady Wang",
         "value": 21,
-        "image": "王夫人.png",
+        "image": "./images/photo/王夫人.jpg",
         "id": 4051,
         "categories": [
           "zhuyao"
@@ -1925,7 +1924,7 @@
       {
         "label": "史湘云——————Shi Xiangyun",
         "value": 12,
-        "image": "史湘云.png",
+        "image": "./images/photo/史湘云.jpg",
         "id": 4052,
         "categories": [
           "Jinling"
@@ -1935,7 +1934,7 @@
       {
         "label": "秦可卿——————Qin Keqin",
         "value": 13,
-        "image": "秦可卿.png",
+        "image": "./images/photo/秦可卿.jpg",
         "id": 4053,
         "categories": [
           "Jinling"
@@ -1954,7 +1953,7 @@
       {
         "label": "袭人——————Aroma",
         "value": 8,
-        "image": "袭人.png",
+        "image": "./images/photo/袭人.jpg",
         "id": 4055,
         "categories": [
           "youfuce"
@@ -1964,7 +1963,7 @@
       {
         "label": "平儿————Patience",
         "value": 7,
-        "image": "平儿.png",
+        "image": "./images/photo/平儿.jpg",
         "id": 4056,
         "categories": [
           "fuce"
@@ -1974,7 +1973,7 @@
       {
         "label": "鸳鸯——————Faithful",
         "value": 5,
-        "image": "鸳鸯.png",
+        "image": "./images/photo/鸳鸯.jpg",
         "id": 4057,
         "categories": [
           "youfuce"
@@ -1984,7 +1983,7 @@
       {
         "label": "紫鹃——————Nightingale",
         "value": 6,
-        "image": "紫鹃.png",
+        "image": "./images/photo/紫鹃.jpg",
         "id": 4058,
         "categories": [
           "youfuce"
@@ -1994,7 +1993,7 @@
       {
         "label": "莺儿——————Oriole",
         "value": 3,
-        "image": "莺儿.png",
+        "image": "./images/photo/莺儿.jpg",
         "id": 4059,
         "categories": [
           "youfuce"
@@ -2004,7 +2003,7 @@
       {
         "label": "玉钏——————Silver",
         "value": 3,
-        "image": "玉钏.png",
+        "image": "./images/photo/玉钏.jpg",
         "id": 4060,
         "categories": [
           "youfuce"
@@ -2014,7 +2013,7 @@
       {
         "label": "金钏——————Golden",
         "value": 4,
-        "image": "金钏.png",
+        "image": "./images/photo/金钏.jpg",
         "id": 4061,
         "categories": [
           "youfuce"
@@ -2024,7 +2023,7 @@
       {
         "label": "彩云——————Suncloud",
         "value": 2,
-        "image": "彩云.png",
+        "image": "./images/photo/彩云.jpg",
         "id": 4062,
         "categories": [
           "person"
@@ -2034,7 +2033,7 @@
       {
         "label": "司棋——————Chess",
         "value": 7,
-        "image": "司棋.png",
+        "image": "./images/photo/司棋.jpg",
         "id": 4063,
         "categories": [
           "youfuce"
@@ -2044,7 +2043,7 @@
       {
         "label": "芳官——————Charmante",
         "value": 2,
-        "image": "芳官.png",
+        "image": "./images/photo/芳官.jpg",
         "id": 4064,
         "categories": [
           "guan"
@@ -2054,7 +2053,7 @@
       {
         "label": "麝月——————Musk",
         "value": 4,
-        "image": "麝月.png",
+        "image": "./images/photo/麝月.jpg",
         "id": 4065,
         "categories": [
           "youfuce"
@@ -2064,7 +2063,7 @@
       {
         "label": "香菱——————Caltrop",
         "value": 9,
-        "image": "香菱.png",
+        "image": "./images/photo/香菱.jpg",
         "id": 4066,
         "categories": [
           "fuce"
@@ -2083,7 +2082,7 @@
       {
         "label": "宝蟾——————Moonbeam",
         "value": 4,
-        "image": "宝蟾.png",
+        "image": "./images/photo/宝蟾.jpg",
         "id": 4068,
         "categories": [
           "fuce"
@@ -2093,7 +2092,6 @@
       {
         "label": "雪雁——————Snowgoose",
         "value": 2,
-        "image": "雪雁.png",
         "id": 4069,
         "categories": [
           "youfuce"
@@ -2148,7 +2146,7 @@
       {
         "label": "薛姨妈——————Aunt Xue",
         "value": 10,
-        "image": "薛姨妈.png",
+        "image": "./images/photo/薛姨妈.jpg",
         "id": 4075,
         "categories": [
           "zhuyao"
@@ -2158,7 +2156,7 @@
       {
         "label": "夏金桂——————Xia Jingui",
         "value": 7,
-        "image": "夏金桂.png",
+        "image": "./images/photo/夏金桂.jpg",
         "id": 4076,
         "categories": [
           "zhuyao"
@@ -2168,7 +2166,7 @@
       {
         "label": "薛宝琴——————Xue Baoqin",
         "value": 6,
-        "image": "薛宝琴.png",
+        "image": "./images/photo/薛宝琴.jpg",
         "id": 4077,
         "categories": [
           "fuce"
@@ -2178,7 +2176,7 @@
       {
         "label": "邢岫烟——————Xing Xiuyan",
         "value": 6,
-        "image": "邢岫烟.png",
+        "image": "./images/photo/邢岫烟.jpg",
         "id": 4078,
         "categories": [
           "fuce"
@@ -2188,7 +2186,7 @@
       {
         "label": "尤氏——————You Shi",
         "value": 9,
-        "image": "尤氏.png",
+        "image": "./images/photo/尤氏.jpg",
         "id": 4079,
         "categories": [
           "zhuyao"
@@ -2198,7 +2196,7 @@
       {
         "label": "尤二姐——————You Erjie",
         "value": 7,
-        "image": "尤二姐.png",
+        "image": "./images/photo/尤二姐.jpg",
         "id": 4080,
         "categories": [
           "fuce"
@@ -2208,7 +2206,7 @@
       {
         "label": "尤三姐——————You San-jie",
         "value": 5,
-        "image": "尤三姐.png",
+        "image": "./images/photo/尤三姐.jpg",
         "id": 4081,
         "categories": [
           "fuce"
@@ -2218,7 +2216,7 @@
       {
         "label": "刘姥姥——————Granny Liu",
         "value": 4,
-        "image": "刘姥姥.png",
+        "image": "./images/photo/刘姥姥.jpg",
         "id": 4082,
         "categories": [
           "zhuyao"
@@ -2246,7 +2244,7 @@
       {
         "label": "小红——————Crimson",
         "value": 7,
-        "image": "小红.png",
+        "image": "./images/photo/小红.jpg",
         "id": 4085,
         "categories": [
           "youfuce"
@@ -2265,7 +2263,7 @@
       {
         "label": "瑞珠——————Gem",
         "value": 3,
-        "image": "瑞珠.png",
+        "image": "./images/photo/瑞珠.jpg",
         "id": 4087,
         "categories": [
           "fuce"
@@ -2275,7 +2273,7 @@
       {
         "label": "藕官——————Nenuphar ",
         "value": 3,
-        "image": "藕官.png",
+        "image": "./images/photo/藕官.jpg",
         "id": 4088,
         "categories": [
           "guan"
@@ -2285,7 +2283,7 @@
       {
         "label": "蕊官——————Etamine",
         "value": 1,
-        "image": "蕊官.png",
+        "image": "./images/photo/蕊官.jpg",
         "id": 4089,
         "categories": [
           "guan"
@@ -2295,7 +2293,7 @@
       {
         "label": "入画——————Picture",
         "value": 2,
-        "image": "入画.png",
+        "image": "./images/photo/入画.jpg",
         "id": 4090,
         "categories": [
           "person"
@@ -2332,7 +2330,7 @@
       {
         "label": "绣橘——————Tangerine",
         "value": 1,
-        "image": "绣橘.png",
+        "image": "./images/photo/绣橘.jpg",
         "id": 4094,
         "categories": [
           "person"
@@ -2342,7 +2340,7 @@
       {
         "label": "侍书——————Scribe",
         "value": 2,
-        "image": "侍书.png",
+        "image": "./images/photo/侍书.jpg",
         "id": 4095,
         "categories": [
           "person"
@@ -2361,7 +2359,7 @@
       {
         "label": "翠缕——————Kingfisher",
         "value": 1,
-        "image": "翠缕.png",
+        "image": "./images/photo/翠缕.jpg",
         "id": 4097,
         "categories": [
           "person"
@@ -2407,7 +2405,7 @@
       {
         "label": "善姐——————Mercy",
         "value": 2,
-        "image": "善姐.png",
+        "image": "./images/photo/善姐.jpg",
         "id": 4102,
         "categories": [
           "person"
@@ -2444,7 +2442,7 @@
       {
         "label": "宝珠——————Jewel",
         "value": 2,
-        "image": "宝珠.png",
+        "image": "./images/photo/宝珠.jpg",
         "id": 4106,
         "categories": [
           "fuce"
@@ -2526,7 +2524,7 @@
       {
         "label": "秋桐——————Autumn",
         "value": 3,
-        "image": "秋桐.png",
+        "image": "./images/photo/秋桐.jpg",
         "id": 4115,
         "categories": [
           "zhuyao"
@@ -2536,7 +2534,7 @@
       {
         "label": "娇杏——————Jiaoxing",
         "value": 3,
-        "image": "娇杏.png",
+        "image": "./images/photo/娇杏.jpg",
         "id": 4117,
         "categories": [
           "fuce"
@@ -2564,7 +2562,7 @@
       {
         "label": "王嬷嬷——————Nanny Wang.",
         "value": 2,
-        "image": "王嬷嬷.png",
+        "image": "./images/photo/王嬷嬷.jpg",
         "id": 4120,
         "categories": [
           "person"
@@ -2574,7 +2572,7 @@
       {
         "label": "李嬷嬷——————Nanny Li",
         "value": 3,
-        "image": "李嬷嬷.png",
+        "image": "./images/photo/李嬷嬷.jpg",
         "id": 4121,
         "categories": [
           "person"
@@ -2584,7 +2582,7 @@
       {
         "label": "多姑娘——————the Mattress",
         "value": 4,
-        "image": "多姑娘.png",
+        "image": "./images/photo/多姑娘.jpg",
         "id": 4122,
         "categories": [
           "zhuyao"
@@ -2612,7 +2610,7 @@
       {
         "label": "王善保家的——————Wang Sunbao's wife.",
         "value": 6,
-        "image": "王善保家的.png",
+        "image": "./images/photo/王善保家的.jpg",
         "id": 4125,
         "categories": [
           "person"
@@ -2667,7 +2665,7 @@
       {
         "label": "周瑞家的——————Zhou rui‘s wife",
         "value": 6,
-        "image": "周瑞家的.png",
+        "image": "./images/photo/周瑞家的.jpg",
         "id": 4131,
         "categories": [
           "zhuyao"
@@ -2677,7 +2675,7 @@
       {
         "label": "林之孝家的——————Lin Zhixiao‘s Wife",
         "value": 4,
-        "image": "林之孝家的.png",
+        "image": "./images/photo/林之孝家的.jpg",
         "id": 4132,
         "categories": [
           "person"
@@ -2687,7 +2685,7 @@
       {
         "label": "柳五儿—————— Fivey",
         "value": 2,
-        "image": "柳五儿.png",
+        "image": "./images/photo/柳五儿.jpg",
         "id": 4133,
         "categories": [
           "youfuce"
@@ -2697,7 +2695,7 @@
       {
         "label": "秦显家的——————Qin Xian's wife",
         "value": 1,
-        "image": "秦显家的.png",
+        "image": "./images/photo/秦显家的.jpg",
         "id": 4134,
         "categories": [
           "person"
@@ -2743,7 +2741,7 @@
       {
         "label": "龄官——————Charmante",
         "value": 2,
-        "image": "龄官.png",
+        "image": "./images/photo/龄官.jpg",
         "id": 4140,
         "categories": [
           "guan"
@@ -2762,7 +2760,7 @@
       {
         "label": "赖嬷嬷——————Nana lai",
         "value": 2,
-        "image": "赖嬷嬷.png",
+        "image": "./images/photo/赖嬷嬷.jpg",
         "id": 4142,
         "categories": [
           "person"
@@ -2799,7 +2797,7 @@
       {
         "label": "坠儿——————Trinket",
         "value": 3,
-        "image": "坠儿.png",
+        "image": "./images/photo/坠儿.jpg",
         "id": 4146,
         "categories": [
           "person"
@@ -2836,7 +2834,7 @@
       {
         "label": "司棋母——————Chess‘ mother",
         "value": 2,
-        "image": "司棋母.png",
+        "image": "./images/photo/司棋母.jpg",
         "id": 4150,
         "categories": [
           "person"
@@ -2855,7 +2853,7 @@
       {
         "label": "尤老娘——————Mrs. You",
         "value": 1,
-        "image": "尤老娘.png",
+        "image": "./images/photo/尤老娘.jpg",
         "id": 4152,
         "categories": [
           "person"
@@ -2892,7 +2890,7 @@
       {
         "label": "赵嬷嬷————Nana Zhao",
         "value": 3,
-        "image": "赵嬷嬷.png",
+        "image": "./images/photo/赵嬷嬷.jpg",
         "id": 4156,
         "categories": [
           "person"
@@ -2938,7 +2936,7 @@
       {
         "label": "代儒夫人——————Madame Dairu",
         "value": 2,
-        "image": "代儒夫人.png",
+        "image": "./images/photo/代儒夫人.jpg",
         "id": 4162,
         "categories": [
           "person"
@@ -2948,7 +2946,7 @@
       {
         "label": "春燕——————Chunyan",
         "value": 2,
-        "image": "春燕.png",
+        "image": "./images/photo/春燕.jpg",
         "id": 4163,
         "categories": [
           "person"
@@ -2958,7 +2956,7 @@
       {
         "label": "何婆子——————Granny He",
         "value": 1,
-        "image": "何婆子.png",
+        "image": "./images/photo/何婆子.jpg",
         "id": 4164,
         "categories": [
           "person"
@@ -2968,7 +2966,7 @@
       {
         "label": "碧痕——————Emerald ",
         "value": 1,
-        "image": "碧痕.png",
+        "image": "./images/photo/碧痕.jpg",
         "id": 4165,
         "categories": [
           "person"
@@ -2987,7 +2985,6 @@
       {
         "label": "警幻仙姑——————the fairy Disenchantment disenchantment",
         "value": 2,
-        "image": "警幻仙姑.png",
         "id": 4167,
         "categories": [
           "zhuyao"
@@ -2997,7 +2994,7 @@
       {
         "label": "马道婆——————Witch Ma",
         "value": 4,
-        "image": "马道婆.png",
+        "image": "./images/photo/马道婆.jpg",
         "id": 4168,
         "categories": [
           "zhuyao"
@@ -3007,7 +3004,7 @@
       {
         "label": "南安太妃——————imperial consort of Nan An",
         "value": 5,
-        "image": "南安太妃.png",
+        "image": "./images/photo/南安太妃.jpg",
         "id": 4169,
         "categories": [
           "zhuyao"
@@ -3044,7 +3041,7 @@
       {
         "label": "玉官——————Topaze ",
         "value": 3,
-        "image": "玉官.png",
+        "image": "./images/photo/玉官.jpg",
         "id": 9999,
         "categories": [
           "guan"
@@ -3054,7 +3051,7 @@
       {
         "label": "宝官——————Trésor ",
         "value": 3,
-        "image": "宝官.png",
+        "image": "./images/photo/宝官.jpg",
         "id": 9998,
         "categories": [
           "guan"
@@ -4327,7 +4324,7 @@
       },
       {
         "id": 3309,
-        "label": "Same clan",
+        "label": "连宗",
         "from": 3891,
         "to": 3869
       },
@@ -4645,7 +4642,7 @@
       },
       {
         "id": 3310,
-        "label": "Same clan",
+        "label": "连宗",
         "from": 3916,
         "to": 3883
       },
@@ -4669,7 +4666,7 @@
       },
       {
         "id": 3311,
-        "label": "Kindness",
+        "label": "有恩",
         "from": 3918,
         "to": 3917
       },
@@ -5185,7 +5182,7 @@
       },
       {
         "id": 3576,
-        "label": "confidant",
+        "label": "知己",
         "from": 4037,
         "to": 4058
       },

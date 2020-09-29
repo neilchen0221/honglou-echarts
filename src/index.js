@@ -2,7 +2,7 @@ const echarts = require('echarts');
 const echarts2 = require('echarts');
 const data = require('./data/honglou_english_version.json');
 const data2 = require('./data/honglou2.json');
-const imageBaseUrl = 'https://datarati-vma.s3-ap-southeast-2.amazonaws.com/Test+Images/';
+const imageBaseUrl = 'https://datarati-vma.s3-ap-southeast-2.amazonaws.com/Test+Images/circle/';
 
 if (document.getElementById('main')) {
 	/**************************************/
@@ -16,26 +16,24 @@ if (document.getElementById('main')) {
 	//[{ name: 'event' }, { name: 'person' }, { name: 'location' },{name:'Jinling'},{name:'zhuyao'},{name:'fuce'},{name:'youfuce'},{name:'guan'};
 
 	//Node data
+	let imageCount = 0;
 	graph.data.nodes.forEach(function (node) {
+		if (node.image) {
+			imageCount++;
+		}
 		let name = node.label.split('—');
 		let chineseName = name[0];
 		let englishName = name[name.length - 1];
 		let info = node.info.split('—');
 		let chineseInfo = info[0];
 		let englishInfo = info[info.length - 1];
-		let imageUrl = `${imageBaseUrl}${encodeURIComponent(chineseName)}.jpg`;
+		let imageUrl = `${imageBaseUrl}${encodeURIComponent(chineseName)}.png`;
 
-		let labelSize = 12;
-		if (node.value <= 5) {
-			labelSize = 8;
-		} else if (node.value > 5) {
-			labelSize = 12;
-		}
+		let labelSize = node.value <= 5 ? 8 : 12;
 		node.category = node.categories[0];
 		node.name = `${chineseName}|${englishName}`;
 		node.symbolSize = node.category === 'event' || node.category === 'location' ? 10 : node.value * 2;
-		// node.symbol = node.categories[0] === 'person' && node.image ? `image://${imageUrl}` : 'circle';
-		node.symbol = 'circle';
+		node.symbol = node.image ? `image://${imageUrl}` : 'circle';
 		node.label = {
 			show: true,
 			fontSize: labelSize
@@ -53,6 +51,7 @@ if (document.getElementById('main')) {
 			}
 		};
 	});
+	console.log(imageCount);
 	//Link data
 	graph.data.edges.forEach(function (edge) {
 		edge.source = edge.from.toString();
