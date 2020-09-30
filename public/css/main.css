@@ -2,9 +2,8 @@ body,
 html {
 	height: 100%;
 }
-#wrapper::before {
-	content: ' ';
-	display: block;
+
+#wrapper-bg {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -19,4 +18,5 @@ html {
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
+	transition: all 0.5s ease-in-out;
 }
