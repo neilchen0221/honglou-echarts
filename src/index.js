@@ -6,9 +6,9 @@ const imageBaseUrl = 'https://datarati-vma.s3-ap-southeast-2.amazonaws.com/Test+
 const bgImageBaseUrl = 'https://datarati-vma.s3-ap-southeast-2.amazonaws.com/Test+Images/background/';
 
 if (document.getElementById('main')) {
-	/**************************************/
-	/* Chart 1 */
-	/*************************************/
+	/***************************************/
+	/*  			    Chart 1 			  */
+	/***************************************/
 	const myChart = echarts.init(document.getElementById('main'));
 	let graph = data;
 	const categories = Object.keys(graph.categories).map((key) => ({
@@ -28,14 +28,14 @@ if (document.getElementById('main')) {
 		let labelSize = node.value <= 5 ? 8 : 12;
 		node.category = node.categories[0];
 		node.name = `${chineseName}|${englishName}`;
-		node.symbolSize = node.category === 'event' || node.category === 'location' ? 10 : node.value * 2;
+		node.symbolSize = node.category === 'event' || node.category === 'location' ? 12 : node.value * 2.5;
 		node.symbol = node.image && node.value >= 3 ? `image://${imageUrl}` : 'circle';
 		node.label = {
 			show: true,
 			fontSize: labelSize
 		};
 		node.itemStyle = {
-			borderWidth: 1.2,
+			borderWidth: 0.6,
 			borderColor: '#ffffff'
 		};
 		node.tooltip = {
@@ -61,8 +61,8 @@ if (document.getElementById('main')) {
 
 	option = {
 		title: {
-			text: '紅樓夢|Honglou',
-			subtext: 'Circular',
+			text: '红楼梦|Dream of the Red Chamber',
+			subtext: '',
 			top: 'top',
 			left: 'left'
 		},
@@ -98,9 +98,6 @@ if (document.getElementById('main')) {
 				categories: categories,
 				roam: true,
 				focusNodeAdjacency: true,
-				itemStyle: {
-					borderWidth: 1
-				},
 				edgeLabel: {
 					show: false,
 					fontSize: 14
@@ -114,7 +111,7 @@ if (document.getElementById('main')) {
 				emphasis: {
 					edgeLabel: { show: true },
 					lineStyle: {
-						width: 2
+						width: 1.5
 					},
 					label: {
 						fontSize: 16
@@ -135,9 +132,9 @@ if (document.getElementById('main')) {
 		document.querySelector('#wrapper-bg').style.backgroundImage = `url("./images/honglou_bg.jpg")`;
 	});
 } else {
-	/**************************************/
-	/* Chart 2 */
-	/*************************************/
+	/***************************************/
+	/*  			Chart 2 		       */
+	/***************************************/
 	const myChart2 = echarts2.init(document.getElementById('main2'));
 	let graph2 = data2;
 	const categories2 = [{ name: 'Community 0' }];
