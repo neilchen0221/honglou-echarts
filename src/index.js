@@ -3,6 +3,7 @@ const echarts2 = require('echarts');
 const data = require('./data/honglou_english_version.json');
 const data2 = require('./data/honglou2.json');
 const imageBaseUrl = 'https://datarati-vma.s3-ap-southeast-2.amazonaws.com/Test+Images/circle/';
+const bgImageBaseUrl = 'https://datarati-vma.s3-ap-southeast-2.amazonaws.com/Test+Images/background/';
 
 if (document.getElementById('main')) {
 	/**************************************/
@@ -13,14 +14,9 @@ if (document.getElementById('main')) {
 	const categories = Object.keys(graph.categories).map((key) => ({
 		name: key
 	}));
-	//[{ name: 'event' }, { name: 'person' }, { name: 'location' },{name:'Jinling'},{name:'zhuyao'},{name:'fuce'},{name:'youfuce'},{name:'guan'};
 
 	//Node data
-	let imageCount = 0;
 	graph.data.nodes.forEach(function (node) {
-		if (node.image) {
-			imageCount++;
-		}
 		let name = node.label.split('—');
 		let chineseName = name[0];
 		let englishName = name[name.length - 1];
@@ -33,7 +29,7 @@ if (document.getElementById('main')) {
 		node.category = node.categories[0];
 		node.name = `${chineseName}|${englishName}`;
 		node.symbolSize = node.category === 'event' || node.category === 'location' ? 10 : node.value * 2;
-		node.symbol = node.image ? `image://${imageUrl}` : 'circle';
+		node.symbol = node.image && node.value >= 3 ? `image://${imageUrl}` : 'circle';
 		node.label = {
 			show: true,
 			fontSize: labelSize
@@ -51,7 +47,6 @@ if (document.getElementById('main')) {
 			}
 		};
 	});
-	console.log(imageCount);
 	//Link data
 	graph.data.edges.forEach(function (edge) {
 		edge.source = edge.from.toString();
@@ -91,7 +86,7 @@ if (document.getElementById('main')) {
 		animationEasingUpdate: 'quinticInOut',
 		series: [
 			{
-				zoom: 0.8,
+				zoom: 1,
 				name: 'honglou',
 				type: 'graph',
 				layout: 'circular',
@@ -131,19 +126,14 @@ if (document.getElementById('main')) {
 	myChart.setOption(option);
 	window.onresize = myChart.resize;
 
-	// myChart.on('click', { dataType: 'node' }, function (params) {
-	// 	myChart.dispatchAction({
-	// 		type: 'focusNodeAdjacency',
-	// 		seriesIndex: 0,
-	// 		dataIndex: params.dataIndex
-	// 	});
-	// });
-	// myChart.on('mouseout', { dataType: 'node' }, function (para) {
-	// 	myChart.setOption({ series: { edgeLabel: { show: false } } });
-	// });
-	// myChart.on('focusnodeadjacency', function () {
-	// 	myChart.setOption({ series: { edgeLabel: { show: true } } });
-	// });
+	myChart.on('mouseover', { dataType: 'node' }, function (params) {
+		if (graph.data.nodes[params.dataIndex].category === 'event') {
+			document.querySelector('#wrapper-bg').style.backgroundImage = `url("${bgImageBaseUrl}487371474.jpg")`;
+		}
+	});
+	myChart.on('mouseout', { dataType: 'node' }, function (params) {
+		document.querySelector('#wrapper-bg').style.backgroundImage = `url("./images/honglou_bg.jpg")`;
+	});
 } else {
 	/**************************************/
 	/* Chart 2 */
