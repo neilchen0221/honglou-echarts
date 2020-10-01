@@ -3,7 +3,7 @@ const graph = require('./data/honglou_english_version.json');
 // const imageBaseUrl = 'https://honglou-image.s3-ap-southeast-2.amazonaws.com/characters/';
 // const bgImageBaseUrl = 'https://honglou-image.s3-ap-southeast-2.amazonaws.com/background/';
 
-const myChart = echarts.init(document.getElementById('main'));
+const myChart = echarts.init(document.getElementById('main'), null, { renderer: 'svg' });
 const categories = Object.keys(graph.categories).map((key) => ({
 	name: key
 }));
