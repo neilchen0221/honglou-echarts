@@ -18,5 +18,8 @@ html {
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
+	-o-transition: cover;
+	-moz-transition: cover;
+	-webkit-transition: cover;
 	transition: all 0.5s ease-in-out;
 }

@@ -123,3 +123,18 @@ myChart.on('mouseover', { dataType: 'node' }, function (params) {
 myChart.on('mouseout', { dataType: 'node' }, function (params) {
 	document.querySelector('#wrapper-bg').style.backgroundImage = `url("./images/background/honglou_bg.jpg")`;
 });
+
+// function getImgDataURI(url, width, callback) {
+// 	let canvas = document.createElement('canvas');
+// 	context = canvas.getContext('2d');
+// 	baseImg = new Image();
+// 	baseImg.src = url;
+// 	baseImg.onload = function () {
+// 		context.drawImage(baseImg, width, width);
+// 		callback(canvas.toDataURL());
+// 	};
+// }
+
+// getImgDataURI(`./images/characters/贾宝玉.png`, 100, function (dataURI) {
+// 	console.log(dataURI);
+// });
