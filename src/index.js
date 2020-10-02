@@ -4,7 +4,7 @@ const graph = require('./data/honglou_english_version.json');
 // const bgImageBaseUrl = 'https://honglou-image.s3-ap-southeast-2.amazonaws.com/background/';
 
 // const myChart = echarts.init(document.getElementById('main'), null, { renderer: 'svg' });
-const myChart = echarts.init(document.getElementById('main'));
+const myChart = echarts.init(document.getElementById('main'), null, { devicePixelRatio: 2 });
 const categories = Object.keys(graph.categories).map((key) => ({
 	name: key
 }));
@@ -24,20 +24,21 @@ graph.data.nodes.forEach(function (node) {
 	node.name = `${chineseName}|${englishName}`;
 	node.symbolSize = node.category === 'event' || node.category === 'location' ? 12 : node.value * 2.5;
 	node.symbol = node.image && node.value >= 3 ? `image://./images/characters/${chineseName}.png` : 'circle';
-	node.symbolKeepAspect = true;
 	node.label = {
 		show: true,
 		fontSize: labelSize
 	};
+
 	node.itemStyle = {
 		borderWidth: 0.6,
 		borderColor: '#ffffff'
 	};
+
 	node.tooltip = {
 		show: true,
 		formatter: function () {
 			return `<div style="width:400px;white-space: initial;">${
-				node.image ? `<img src='./images/characters/${chineseName}.png' width="100" style="float:left;margin-right:15px">` : ''
+				node.image ? `<img src="./images/characters/${chineseName}.png" width="100" style="float:left;margin-right:15px">` : ''
 			}<span style="font-weight:bold;font-size:16px;">${node.name}</span><br>${englishInfo}</div>`;
 		}
 	};
