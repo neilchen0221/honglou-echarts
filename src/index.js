@@ -1,9 +1,8 @@
 const echarts = require('echarts');
 const graph = require('./data/honglou_english_version.json');
-// const imageBaseUrl = 'https://honglou-image.s3-ap-southeast-2.amazonaws.com/characters/';
-// const bgImageBaseUrl = 'https://honglou-image.s3-ap-southeast-2.amazonaws.com/background/';
+const imageBaseUrl = 'https://honglou-image.s3-ap-southeast-2.amazonaws.com/characters/';
+const eventImageBaseUrl = 'https://honglou-image.s3-ap-southeast-2.amazonaws.com/event/';
 
-// const myChart = echarts.init(document.getElementById('main'), null, { renderer: 'svg' });
 const myChart = echarts.init(document.getElementById('main'), null, { devicePixelRatio: 2 });
 const categories = Object.keys(graph.categories).map((key) => ({
 	name: key
@@ -17,13 +16,14 @@ graph.data.nodes.forEach(function (node) {
 	let info = node.info.split('—');
 	let chineseInfo = info[0];
 	let englishInfo = info[info.length - 1];
-	// let imageUrl = `${imageBaseUrl}${encodeURIComponent(chineseName)}.png`;
+	let imageUrl = `${imageBaseUrl}${encodeURIComponent(chineseName)}.png`;
 
 	let labelSize = node.value <= 5 ? 8 : 12;
+	node.chineseName = chineseName;
 	node.category = node.categories[0];
 	node.name = `${chineseName}|${englishName}`;
 	node.symbolSize = node.category === 'event' || node.category === 'location' ? 12 : node.value * 2.5;
-	node.symbol = node.image && node.value >= 3 ? `image://./images/characters/${chineseName}.png` : 'circle';
+	node.symbol = node.image && node.value >= 3 ? `image://${imageUrl}` : 'circle';
 	node.label = {
 		show: true,
 		fontSize: labelSize
@@ -38,7 +38,7 @@ graph.data.nodes.forEach(function (node) {
 		show: true,
 		formatter: function () {
 			return `<div style="width:400px;white-space: initial;">${
-				node.image ? `<img src="./images/characters/${chineseName}.png" width="100" style="float:left;margin-right:15px">` : ''
+				node.image ? `<img src="${imageUrl}" width="100" style="float:left;margin-right:15px">` : ''
 			}<span style="font-weight:bold;font-size:16px;">${node.name}</span><br>${englishInfo}</div>`;
 		}
 	};
@@ -119,25 +119,12 @@ myChart.setOption(option);
 window.onresize = myChart.resize;
 
 myChart.on('mouseover', { dataType: 'node' }, function (params) {
-	if (graph.data.nodes[params.dataIndex].category === 'event') {
-		document.querySelector('#wrapper-bg').style.backgroundImage = `url("./images/background/487371474.jpg")`;
+	const nodeData = graph.data.nodes[params.dataIndex];
+	let eventImageUrl = `${eventImageBaseUrl}${encodeURIComponent(nodeData.chineseName)}.jpg`;
+	if (nodeData.category === 'event') {
+		document.querySelector('#wrapper-bg').style.backgroundImage = `url("${eventImageUrl}")`;
 	}
 });
 myChart.on('mouseout', { dataType: 'node' }, function (params) {
 	document.querySelector('#wrapper-bg').style.backgroundImage = `url("./images/background/honglou_bg.jpg")`;
 });
-
-// function getImgDataURI(url, width, callback) {
-// 	let canvas = document.createElement('canvas');
-// 	context = canvas.getContext('2d');
-// 	baseImg = new Image();
-// 	baseImg.src = url;
-// 	baseImg.onload = function () {
-// 		context.drawImage(baseImg, width, width);
-// 		callback(canvas.toDataURL());
-// 	};
-// }
-
-// getImgDataURI(`./images/characters/贾宝玉.png`, 100, function (dataURI) {
-// 	console.log(dataURI);
-// });
