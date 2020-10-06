@@ -126,5 +126,5 @@ myChart.on('mouseover', { dataType: 'node' }, function (params) {
 	}
 });
 myChart.on('mouseout', { dataType: 'node' }, function (params) {
-	document.querySelector('#wrapper-bg').style.backgroundImage = `url("./images/background/honglou_bg.jpg")`;
+	document.querySelector('#wrapper-bg').style.backgroundImage = `url("./images/background/honglou_bg_1.jpg")`;
 });
