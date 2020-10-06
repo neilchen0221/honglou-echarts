@@ -117,6 +117,7 @@ option = {
 };
 myChart.setOption(option);
 window.onresize = myChart.resize;
+document.querySelector('#wrapper-bg').style.backgroundImage = `url("./images/background/honglou_bg_1.jpg")`;
 
 myChart.on('mouseover', { dataType: 'node' }, function (params) {
 	const nodeData = graph.data.nodes[params.dataIndex];
