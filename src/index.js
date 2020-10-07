@@ -1,3 +1,4 @@
+require('./css/main.css');
 const echarts = require('echarts');
 const graph = require('./data/honglou_english_version.json');
 const imageBaseUrl = 'https://honglou-image.s3-ap-southeast-2.amazonaws.com/characters/';
@@ -117,7 +118,6 @@ option = {
 };
 myChart.setOption(option);
 window.onresize = myChart.resize;
-document.querySelector('#wrapper-bg').style.backgroundImage = `url("./images/background/honglou_bg_1.jpg")`;
 
 myChart.on('mouseover', { dataType: 'node' }, function (params) {
 	const nodeData = graph.data.nodes[params.dataIndex];
@@ -127,5 +127,5 @@ myChart.on('mouseover', { dataType: 'node' }, function (params) {
 	}
 });
 myChart.on('mouseout', { dataType: 'node' }, function (params) {
-	document.querySelector('#wrapper-bg').style.backgroundImage = `url("./images/background/honglou_bg_1.jpg")`;
+	document.querySelector('#wrapper-bg').style.backgroundImage = `url("https://honglou-image.s3-ap-southeast-2.amazonaws.com/honglou_bg_1.jpg")`;
 });

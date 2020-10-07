@@ -1,0 +1,25 @@
+body,
+html {
+	height: 100%;
+}
+
+#wrapper-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 110vh;
+	opacity: 0.4;
+	background-image: url('https://honglou-image.s3-ap-southeast-2.amazonaws.com/honglou_bg_1.jpg');
+	background-repeat: no-repeat;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	-o-transition: cover;
+	-moz-transition: cover;
+	-webkit-transition: cover;
+	transition: all 0.5s ease-in-out;
+}
