@@ -24,7 +24,7 @@ graph.data.nodes.forEach(function (node) {
 	node.category = node.categories[0];
 	node.name = `${chineseName}|${englishName}`;
 	node.symbolSize = node.category === 'event' || node.category === 'location' ? 12 : node.value * 2.5;
-	node.symbol = node.image && node.value >= 3 ? `image://${imageUrl}` : 'circle';
+	node.symbol = node.category !== 'event' && node.category !== 'location' && node.image && node.value >= 3 ? `image://${imageUrl}` : 'circle';
 	node.label = {
 		show: true,
 		fontSize: labelSize
@@ -122,10 +122,18 @@ window.onresize = myChart.resize;
 myChart.on('mouseover', { dataType: 'node' }, function (params) {
 	const nodeData = graph.data.nodes[params.dataIndex];
 	let eventImageUrl = `${eventImageBaseUrl}${encodeURIComponent(nodeData.chineseName)}.jpg`;
-	if (nodeData.category === 'event') {
+	if (nodeData.category === 'event' && nodeData.image !== 'no image') {
 		document.querySelector('#wrapper-bg').style.backgroundImage = `url("${eventImageUrl}")`;
 	}
 });
 myChart.on('mouseout', { dataType: 'node' }, function (params) {
 	document.querySelector('#wrapper-bg').style.backgroundImage = `url("https://honglou-image.s3-ap-southeast-2.amazonaws.com/honglou_bg_1.jpg")`;
+});
+
+myChart.on('click', { dataType: 'node' }, function (params) {
+	const nodeData = graph.data.nodes[params.dataIndex];
+	let audioElement = document.querySelector('#sound');
+	if (nodeData.category === 'Jinling') {
+		audioElement.play();
+	}
 });
