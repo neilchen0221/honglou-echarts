@@ -24,6 +24,7 @@
 	"dependencies": {
 		"axios": "^0.20.0",
 		"echarts": "^4.9.0",
-		"express": "^4.17.1"
+		"express": "^4.17.1",
+		"howler": "^2.2.0"
 	}
 }

@@ -1,6 +1,15 @@
 require('./css/main.css');
 const echarts = require('echarts');
 const graph = require('./data/honglou_english_version.json');
+const { Howl } = require('howler');
+const characterAudio = document.querySelector('#sound');
+const bgAudio = new Howl({
+	src: ['https://honglou-sound.s3-ap-southeast-2.amazonaws.com/background_music_1.mp3'],
+	autoplay: true,
+	loop: true,
+	volume: 0.2
+});
+
 const imageBaseUrl = 'https://honglou-image.s3-ap-southeast-2.amazonaws.com/characters/';
 const eventImageBaseUrl = 'https://honglou-image.s3-ap-southeast-2.amazonaws.com/event/';
 
@@ -117,8 +126,10 @@ option = {
 	]
 };
 myChart.setOption(option);
+// Resize the graph size based on browser window size
 window.onresize = myChart.resize;
 
+// Hover data node to change backgorund image
 myChart.on('mouseover', { dataType: 'node' }, function (params) {
 	const nodeData = graph.data.nodes[params.dataIndex];
 	let eventImageUrl = `${eventImageBaseUrl}${encodeURIComponent(nodeData.chineseName)}.jpg`;
@@ -130,10 +141,23 @@ myChart.on('mouseout', { dataType: 'node' }, function (params) {
 	document.querySelector('#wrapper-bg').style.backgroundImage = `url("https://honglou-image.s3-ap-southeast-2.amazonaws.com/honglou_bg_1.jpg")`;
 });
 
+// Click data node to play sound
 myChart.on('click', { dataType: 'node' }, function (params) {
 	const nodeData = graph.data.nodes[params.dataIndex];
-	let audioElement = document.querySelector('#sound');
-	if (nodeData.category === 'Jinling') {
-		audioElement.play();
+	if (nodeData.sound) {
+		characterAudio.src = `https://honglou-sound.s3-ap-southeast-2.amazonaws.com/${encodeURIComponent(nodeData.chineseName)}.mp3`;
+		characterAudio.volume = 1;
+		characterAudio.play();
 	}
 });
+
+// Reduce background music volume when playing character sound
+characterAudio.onplay = function () {
+	bgAudio.fade(bgAudio.volume(), 0.04, 1000);
+};
+characterAudio.onended = function () {
+	bgAudio.fade(bgAudio.volume(), 0.2, 1000);
+};
+
+// Force background music to play as soon as web page is loaded
+bgAudio.play();

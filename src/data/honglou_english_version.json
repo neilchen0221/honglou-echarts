@@ -601,6 +601,7 @@
 				"label": "贾宝玉——————Jia Baoyu",
 				"value": 52,
 				"image": "贾宝玉.png",
+				"sound": true,
 				"id": 3863,
 				"categories": ["zhuyao"],
 				"info": "荣国府衔玉而诞的公子，贾政与王夫人之次子，阖府捧为掌上明珠，对他寄予厚望，他却走上了叛逆之路，痛恨八股文，批判程朱理学，给那些读书做官的人起名“国贼禄蠹”。他不fond“正经书”，却偏爱《牡丹亭》《西厢记》之类的“杂书”。他终日与家里的女孩们厮混，爱她们美丽纯洁，伤悼她们的薄命悲剧。——————The first chapter describes how one piece of stone was left over from when the Wall of Heaven was repaired by the Goddess Nüwa. That stone, changed into a piece of luminous jade, is given a chance to learn the emptiness of human existence by following another incarnation who is to be Jia Baoyu. Baoyu is thus born with a magical piece of jade in his mouth. His name, which literally means ‘precious jade’, was given him in honor of this. The jade and Baoyu share a mystical link, and the Cheng-Gao version ends after the jade is lost for good and Baoyu himself disappears.The second son of Jia Zheng and Madame Wang, the son of the Rongguo family was born with jadeite. The whole family had high hopes for him. He hates the Eight Gui Writings and criticizes the philosophy of Ching and Zhu. He does not like ‘serious books’ and prefers ‘miscellaneous books’ like ‘The Peony Pavilion’ and ‘The Story of the Western Wing’. He spends his days with the girls of his family, loving their beauty and purity and mourning their tragic lives."
@@ -1401,6 +1402,7 @@
 				"label": "林黛玉——————Lin DaYu",
 				"value": 21,
 				"image": "林黛玉.png",
+				"sound": true,
 				"id": 4037,
 				"categories": ["Jinling"],
 				"info": "金陵十二钗之冠。林如海与贾敏之女，宝玉的姑表妹，寄居荣国府 。她生性孤傲，多愁善感，才思敏捷。她与宝玉真心相爱，是宝玉反抗封建礼教的同盟，是自由恋爱的坚定追求者。——————The most important woman among the Twelve Maidens of Chin Ling. The daughter of Lin Ruhai and Jia Min, the cousin of Jia Baoyu, lives in Mansion in Rongguo. She is aloof, sentimental, and quick-thinking. She and Baoyu truly love each other, Baoyu’s companion against feudal ethics, and a firm pursuer of free love."
@@ -1409,6 +1411,7 @@
 				"label": "薛宝钗——————Xue Baochai",
 				"value": 17,
 				"image": "薛宝钗.png",
+				"sound": true,
 				"id": 4038,
 				"categories": ["Jinling"],
 				"info": "金陵十二钗之二，来自四大家族之薛家，薛姨妈之女。她大方典雅，举止雍容。她对官场黑暗深恶痛绝，但仍规谏宝玉读书做官。有一个金锁，与贾宝玉的通灵宝玉被外人称为金玉良缘。——————The second of The Twelve Maidens of Chin Ling, she is from the Xue family, the daughter of Aunt Xue. She is generous, elegant and graceful. She abhorred the darkness of officialdom, but still admonished Baoyu to study and become an official. She has a golden lock and a jadeite with Jia Baoyu that is known as the ‘Golden Jade’."
@@ -1425,6 +1428,7 @@
 				"label": "贾惜春——————Jia Xichun",
 				"value": 8,
 				"image": "贾惜春.png",
+				"sound": true,
 				"id": 4040,
 				"categories": ["Jinling"],
 				"info": "金陵十二钗之八，宁国府贾珍的妹妹，贾府四小姐，爱好绘画。因father贾敬一味好道炼丹，mother又早逝，她一直在荣国府贾母身边长大。由于没有父母疼爱，养成了孤僻冷漠的性格，抄检大观园时，她狠心撵走丫环入画。四大家族的没落，三个sister的结局，使她产生了弃世的念头，看破红尘出家为尼。——————The eighth of The Twelve Maidens of Chin Ling, the younger sister of Jia Zhen of the Mansion of Ningguo, the fourth daughter of the Jia family, is a lover of painting. She grew up in the Mansion of Rongguo because her father, Jia Jing, was an alchemist, and her mother died young. With no parents to love her, she was raised to be an eccentric and cold character. The fall of her four big families and the end of her three sisters made her become a nun."
@@ -1433,6 +1437,7 @@
 				"label": "王熙凤——————Wang Xifeng",
 				"value": 25,
 				"image": "王熙凤.png",
+				"sound": true,
 				"id": 4041,
 				"categories": ["Jinling"],
 				"info": "金陵十二钗之九，来自四大家族之王家，王夫人的内侄女，贾琏之妻。她精明强干，深得贾母和王夫人的信任，成为荣国府的管家奶奶，她为人处事圆滑周到，图财害命的事也干过不少，她支持宝黛爱情。——————The Twelve Maidens of Chin Ling is a niece of Madame Wang and the wife of Jia Lian, a member of the Wang family. She is the wife of Jia Lian. She is a smart and capable woman who has won the trust of both Lady Wang and Grandma Jia, and has become the manager of the Mansion.She supports Baoyu and Daiyu's love for each other."
@@ -1441,6 +1446,7 @@
 				"label": "贾迎春——————Jia Yingchun",
 				"value": 10,
 				"image": "贾迎春.png",
+				"sound": true,
 				"id": 4042,
 				"categories": ["Jinling"],
 				"info": "金陵十二钗之七，是贾赦与妾所生，贾府二小姐。她老实无能，懦弱怕事，有“二木头”的诨名。她不但作诗猜谜不如姐妹们，在处世为人上，也只知退让，任人欺侮。贾赦欠了孙家五千两银子还不出，就把她嫁给孙家，原著前80回未交代结局，根据金陵十二钗判词，最后被husband孙绍祖虐待致死。——————The Twelve Maidens of Chin Ling is the seventh child of Jia Pao and his concubine, the second youngest daughter of the Jia family. She is an honest, incompetent, cowardly and fearful woman. She is not only inferior to her sisters in poetry and riddles, but she is also willing to give in and let others bully her. Jia Pao, who owes Sun's family 5,000 taels of silver, marries her off to Sun's family and is eventually maltreated to death by her husband, Sun Shaozu."
@@ -1449,6 +1455,7 @@
 				"label": "李纨——————Li Wan",
 				"value": 12,
 				"image": "李纨.png",
+				"sound": true,
 				"id": 4043,
 				"categories": ["Jinling"],
 				"info": "金陵十二钗之十一，贾珠遗孀，生子贾兰。李纨虽处于膏粱锦绣之中，竟如“槁木死灰”一般，一概不闻不问，只知道抚养亲子，闲时陪侍小姑等女红、诵读而已  。她是个恪守封建礼法的节妇的典型。——————The Twelve Maidens of Chin Ling is the eleventh, widow of Jia Zhu, who gave birth to Jia Lan. She only knew how to raise her own children and spent her free time with her aunt doing needlework and reading. She was a typical example of a temperate woman who adhered to feudal rituals."
@@ -1457,6 +1464,7 @@
 				"label": "贾元春——————Jia Yuanchun",
 				"value": 9,
 				"image": "贾元春.png",
+				"sound": true,
 				"id": 4044,
 				"categories": ["Jinling"],
 				"info": "金陵十二钗之三，贾政与王夫人之长女，贾府大小姐。因贤孝才德，选入宫作女史。秦可卿出殡不久，元春晋封贵妃  。贾府为了迎接她省亲，建造了大观园。她给家族带来了“烈火烹油，鲜花著锦之盛”，但自己幽闭深宫，不能尽天伦之乐。——————The Twelve Maidens of Chin Ling was the third, the eldest daughter of Jia Zheng and Madame Wang, the eldest daughter of the Jia family. Because of her virtuousness and filial piety, she was chosen to be a female historian of the palace. Soon after Qin Keqing's funeral, she was promoted to the title of noble consort in Yuanchun. In order to welcome her home, the Jia Mansion built the Grand View Garden. She brought prosperity to the family, but she was secluded in the palace, unable to enjoy her family life."
@@ -1465,6 +1473,7 @@
 				"label": "贾探春——————Jia Tanchun",
 				"value": 14,
 				"image": "贾探春.png",
+				"sound": true,
 				"id": 4045,
 				"categories": ["Jinling"],
 				"info": "金陵十二钗之四，贾政与赵姨娘所生，贾府三小姐。她精明能干，个性刚烈，有“玫瑰花”之诨名。抄检大观园时，她当众扇了王善保家的一巴掌。她对贾府的危局颇有感触，用兴利除弊的改革来挽救。改革虽成功，但无济大事。——————The Twelve Maidens of Chin Ling is the fourth, born to Jia Zheng and Miss Zhao, the third daughter of the Jia family. The Twelve Maidens of Chin Ling, the third daughter of the Jia family, was born to Jia Zheng and Aunt Zhao, and was known as ‘The Rose’. During the raid on the Grand View Garden, she slapped Wang Shanbao's family in public. She was impressed by the dire situation of the Jia family, and saved them by introducing reforms to remove the disadvantages. Although the reforms were successful, they could not save the Jia family in the end."
@@ -1504,6 +1513,7 @@
 				"label": "妙玉——————Adamantina",
 				"value": 3,
 				"image": "妙玉.png",
+				"sound": true,
 				"id": 4050,
 				"categories": ["Jinling"],
 				"info": "金陵十二钗之六，苏州人氏。祖上是读书仕宦人家，因自幼多病，买了许多替身皆不中用，只得入了空门，带发修行。父母亡故后，她随师父进京。师父圆寂后，王夫人赏识她的佛学修为，请她入住大观园栊翠庵，原著前80回未交代结局。——————The Sixth of The Twelve Maidens of Chin Ling, a native of SooChow. Her ancestors were educated and worked as government officials, but due to illness at an early age, she had to take her hair to the temple. After the death of her parents, she went to Beijing with her master. After her master's death, Madame Wang appreciated her Buddhist training and invited her to stay at the Green Lattice Nunnery."
@@ -1520,6 +1530,7 @@
 				"label": "史湘云——————Shi Xiangyun",
 				"value": 12,
 				"image": "史湘云.png",
+				"sound": true,
 				"id": 4052,
 				"categories": ["Jinling"],
 				"info": "金陵十二钗之五，来自四大家族之史家，是贾母的侄孙女。自幼父母双亡，在家一点儿也作不得主，不时还要三更半夜做针线活儿。她心直口快，开朗豪爽，心怀坦荡，从未把儿女私情略萦心上。——————Fifth of The Twelve Maidens of Chin Ling is a niece of Grandma Jia's nephew and granddaughter from a family of four great families. She is the niece of Jia's mother. Her parents died when she was young, so she is not in charge of her own family and has to do needlework in the middle of the night from time to time. She is quick-witted, cheerful, and open-minded."
@@ -1528,6 +1539,7 @@
 				"label": "秦可卿——————Qin Keqin",
 				"value": 13,
 				"image": "秦可卿.png",
+				"sound": true,
 				"id": 4053,
 				"categories": ["Jinling"],
 				"info": "金陵十二钗之十二，宁国府贾蓉之妻。她是营缮司郎中秦邦业从养生堂抱养的女儿，小名可儿，大名兼美。她长得袅娜纤巧，性格风流，行事又温柔和平，深得贾母等人的欢心  。但公公贾珍与她关系暧昧，致使其年轻早夭。——————Twelfth of The Twelve Maidens of Chin Ling , wife of the Ningguo mansion Jia Rong. She was the adopted daughter of Qin Ye, whose nickname was Ke er, and whose first name was also Jianmei. She was a slender, graceful, gentle and peaceful woman, who was very popular with Grandmother Jia and others. But her father-in-law, Jia Zhen, had an affair with her, which led to her early death."
