@@ -5,9 +5,13 @@ const { Howl } = require('howler');
 const characterAudio = document.querySelector('#sound');
 const bgAudio = new Howl({
 	src: ['https://honglou-sound.s3-ap-southeast-2.amazonaws.com/background_music_1.mp3'],
-	autoplay: true,
 	loop: true,
-	volume: 0.2
+	volume: 0.2,
+	onplayerror: function () {
+		bgAudio.once('unlock', function () {
+			bgAudio.play();
+		});
+	}
 });
 
 const imageBaseUrl = 'https://honglou-image.s3-ap-southeast-2.amazonaws.com/characters/';
@@ -159,5 +163,4 @@ characterAudio.onended = function () {
 	bgAudio.fade(bgAudio.volume(), 0.2, 1000);
 };
 
-// Force background music to play as soon as web page is loaded
 bgAudio.play();
