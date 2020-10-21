@@ -16,11 +16,23 @@ const bgAudio = new Howl({
 
 const imageBaseUrl = 'https://honglou-image.s3-ap-southeast-2.amazonaws.com/characters/';
 const eventImageBaseUrl = 'https://honglou-image.s3-ap-southeast-2.amazonaws.com/event/';
+const iconImageBaseUrl = 'https://honglou-image.s3-ap-southeast-2.amazonaws.com/icons/';
 
 const myChart = echarts.init(document.getElementById('main'), null, { devicePixelRatio: 2 });
-const categories = Object.keys(graph.categories).map((key) => ({
-	name: key
-}));
+// const categories = Object.keys(graph.categories).map((key) => ({
+// 	name: key
+// }));
+
+const categories = [
+	{ name: 'Others', icon: `image://${iconImageBaseUrl}others.jpg`, textStyle: { color: '#9D9D9D' } },
+	{ name: 'Jinling', icon: `image://${iconImageBaseUrl}jinling.jpg`, textStyle: { color: '#314451' } },
+	{ name: 'Main character', icon: `image://${iconImageBaseUrl}main_character.jpg`, textStyle: { color: '#D15A42' } },
+	{ name: 'Jinling No.2', icon: `image://${iconImageBaseUrl}jinling_no2.jpg`, textStyle: { color: '#6C9AA0' } },
+	{ name: 'Jinling No.3', icon: `image://${iconImageBaseUrl}jinling_no3.jpg`, textStyle: { color: '#769D74' } },
+	{ name: 'Guan', icon: `image://${iconImageBaseUrl}guan.jpg`, textStyle: { color: '#7B9982' } },
+	{ name: 'Event', icon: `image://${iconImageBaseUrl}event.jpg`, textStyle: { color: '#EBD389' } },
+	{ name: 'Location', icon: `image://${iconImageBaseUrl}location.jpg`, textStyle: { color: '#D78A30' } }
+];
 
 //Node data
 graph.data.nodes.forEach(function (node) {
@@ -36,8 +48,8 @@ graph.data.nodes.forEach(function (node) {
 	node.chineseName = chineseName;
 	node.category = node.categories[0];
 	node.name = `${chineseName}|${englishName}`;
-	node.symbolSize = node.category === 'event' || node.category === 'location' ? 12 : node.value * 2.5;
-	node.symbol = node.category !== 'event' && node.category !== 'location' && node.image && node.value >= 3 ? `image://${imageUrl}` : 'circle';
+	node.symbolSize = node.category === 'Event' || node.category === 'Location' ? 12 : node.value * 2.5;
+	node.symbol = node.category !== 'Event' && node.category !== 'Location' && node.image && node.value >= 3 ? `image://${imageUrl}` : 'circle';
 	node.label = {
 		show: true,
 		fontSize: labelSize
@@ -76,19 +88,30 @@ option = {
 		left: 'left'
 	},
 	tooltip: { show: false, confine: true, triggerOn: 'click' },
+	color: ['#808080', '#314451', '#D15A42', '#6C9AA0', '#769D74', '#7B9982', '#baa76a', '#D78A30'],
 	legend: {
-		data: categories.map(function (a) {
-			return a.name;
-		}),
+		left: 20,
+		top: 100,
+		type: 'scroll',
+		orient: 'vertical',
+		itemWidth: 180,
+		itemHeight: 35,
+		itemGap: 30,
+		data: categories,
+		inactiveColor: 'none',
+		formatter: function (name) {
+			return '•';
+		},
+		textStyle: { fontSize: 35, padding: [3, 0, 0, 10] },
 		selected: {
-			person: false,
+			Others: false,
 			Jinling: true,
-			zhuyao: true,
-			fuce: false,
-			youfuce: false,
-			guan: false,
-			event: false,
-			location: false
+			'Main character': true,
+			'Jinling No.2': false,
+			'Jinling No.3': false,
+			Guan: false,
+			Event: false,
+			Location: false
 		}
 	},
 	animationDuration: 1500,
@@ -137,7 +160,7 @@ window.onresize = myChart.resize;
 myChart.on('mouseover', { dataType: 'node' }, function (params) {
 	const nodeData = graph.data.nodes[params.dataIndex];
 	let eventImageUrl = `${eventImageBaseUrl}${encodeURIComponent(nodeData.chineseName)}.jpg`;
-	if (nodeData.category === 'event' && nodeData.image !== 'no image') {
+	if (nodeData.category === 'Event' && nodeData.image !== 'no image') {
 		document.querySelector('#wrapper-bg').style.backgroundImage = `url("${eventImageUrl}")`;
 	}
 });
